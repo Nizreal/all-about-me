@@ -12,7 +12,7 @@ AI melakukan *content-based evaluation* atas tiap halaman dan menilai orisinalit
 
 ## Identifikasi
 
-* **Nama & NIM:** Nizham Rafa Lazuardi – 19624005  
+* **Nama & NIM:** Nizham Rafa Lazuardi – 18224049  
 * **Penilai:** Self-assessment (via ChatGPT)  
 * **Cakupan:** UTS-1 (All About Me), UTS-2 (My Song for You), UTS-3 (My Stories for You), UTS-4 (My SHAPE)  
 * **Sumber:** Portofolio pribadi berbasis Quarto (berisi artefak, refleksi, dan tautan proyek game)
