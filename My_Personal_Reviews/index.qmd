@@ -118,7 +118,30 @@ Perjalanan portofolio menunjukkan peningkatan konsistensi nilai (“empati, krea
 
 ---
 
-## Lampiran
+## Lampiran Self-Assessment
 
 Rekap skor siap diunduh untuk dokumentasi:  
 📂 [Download CSV ringkasan](UTS_self_assessment.csv)
+
+---
+
+## Lampiran Peer-Assessment
+
+Hasil evaluasi yang saya berikan kepada rekan sejawat berdasarkan rubrik UTS:
+
+### Tabel Skor Peer-Assessment (Saya sebagai Penilai)
+
+| NIM | Nama | Rata-rata UTS-1 | Rata-rata UTS-2 | Rata-rata UTS-3 | Rata-rata UTS-4 |
+|-----|------|:---------------:|:---------------:|:---------------:|:---------------:|
+| 18224017 | Naomi Azzahra | 5 | 3.5 | 5 | 5 |
+| 10322015 | Ulivia Embun Tresna Wardani | 0 | 0 | 0 | 0 | 
+| 18222061 | Winata Tristan | 3.5 | 3.25 | 5 | 3 |
+
+### Catatan dari Proses Peer-Assessment
+- **Aspek yang dinilai:** Orisinalitas, koherensi, refleksi, dan kelengkapan evidence
+- **Metode penilaian:** Menggunakan rubrik 1-5 dengan fokus pada konsistensi dan kedalaman konten
+- **Kesan umum:** Setiap rekan menunjukkan kekuatan unik dalam storytelling dan refleksi diri
+
+### Akses File Lengkap
+📊 [Link akses (Google Sheets)](https://docs.google.com/spreadsheets/d/1PXUEv_vhknGI6II4tAm2Ne86nR38YApk/edit?usp=sharing&ouid=107100021711431996550&rtpof=true&sd=true)  
+📂 [Download (.xlsx)](18224049_UTS-5_Skor.xlsx)
