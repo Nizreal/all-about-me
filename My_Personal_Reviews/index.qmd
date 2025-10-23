@@ -133,6 +133,7 @@ Hasil evaluasi yang saya berikan kepada rekan sejawat berdasarkan rubrik UTS:
 
 | NIM | Nama | Rata-rata UTS-1 | Rata-rata UTS-2 | Rata-rata UTS-3 | Rata-rata UTS-4 |
 |-----|------|:---------------:|:---------------:|:---------------:|:---------------:|
+| 18224049 | Nizham Rafa Lazuardi | 4.25 | 4.50 | 4.75 | 4.50|
 | 18224017 | Naomi Azzahra | 5 | 3.5 | 5 | 5 |
 | 10322015 | Ulivia Embun Tresna Wardani | 0 | 0 | 0 | 0 | 
 | 18222061 | Winata Tristan | 3.5 | 3.25 | 5 | 3 |
