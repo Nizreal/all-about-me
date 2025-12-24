@@ -13,6 +13,10 @@ format:
 **Tujuan:** Menilai kualitas artikel secara profesional: jelas, runut, masuk akal, dan bisa dipakai di situasi nyata.  
 **Skala skor:** 1 (Poor) sampai 5 (Excellent)
 
+### Akses File Lengkap
+📊 [Link akses (Google Sheets)](https://docs.google.com/spreadsheets/d/1Du7TLka1JZODNW8K5DF6Kq-vif2oG1Wn/edit?usp=sharing&ouid=116351814399162256165&rtpof=true&sd=true)  
+📂 [Download (.xlsx)](18224049_UAS-5_Skor.xlsx)
+
 ## Ringkasan Eksekutif
 
 Portofolio ini punya benang merah yang kuat: mengubah komunikasi tim dari “ngobrol” menjadi “protokol yang bisa diulang”. Analogi TCP/TLS membuat ide inti mudah ditangkap, dan setiap bab konsisten menggeser konflik interpersonal menjadi persoalan parameter kerja yang bisa dinegosiasikan.
