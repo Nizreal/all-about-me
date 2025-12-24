@@ -98,5 +98,415 @@
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>UTS-5 My Personal Review</span>"
     ]
+  },
+  {
+    "objectID": "My_Concepts/index.html",
+    "href": "My_Concepts/index.html",
+    "title": "6  UAS-1 My Concepts",
+    "section": "",
+    "text": "6.1 Human Handshake Protocol (TCP/TLS untuk Kolaborasi)\nDalam materi kuliah ini, konsep bukan sekadar topik atau slogan. Konsep adalah logika dari sebuah mesin abstrak: ia mengumpulkan dan mengarahkan daya [K] untuk mengangkat beban atau masalah [B]. Konsep yang baik juga menjadi “induk” yang bisa melahirkan banyak ide praktis, dan ide-ide turunan itu mewarisi kualitas dari konsep induknya.\nKonsep saya adalah Human Handshake Protocol, yaitu “handshake” terstruktur sebelum kolaborasi dimulai untuk menyamakan parameter, mirip seperti TCP atau TLS menyepakati parameter sebelum pertukaran data yang sesungguhnya.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>UAS-1 My Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "My_Concepts/index.html#human-handshake-protocol-tcptls-untuk-kolaborasi",
+    "href": "My_Concepts/index.html#human-handshake-protocol-tcptls-untuk-kolaborasi",
+    "title": "6  UAS-1 My Concepts",
+    "section": "",
+    "text": "flowchart TD\n  A[Niat kolaborasi] --&gt; B[Tujuan & definisi sukses]\n  B --&gt; C[Kapabilitas & batasan]\n  C --&gt; D[Peran & hak keputusan]\n  D --&gt; E[Parameter komunikasi]\n  E --&gt; F[Verifikasi: mutual ACK]\n  F --&gt; G[Eksekusi]\n  G --&gt; H{Ada perubahan?}\n  H -- Ya --&gt; C\n  H -- Tidak --&gt; G",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>UAS-1 My Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html",
+    "href": "My_Opinions/index.html",
+    "title": "7  UAS-2 My Opinions",
+    "section": "",
+    "text": "7.1 Kerangka Dasar: Kenapa Opini Berbeda Itu Wajar\nSaya menulis bagian ini sebagai opini tentang cara menangani perbedaan pendapat dalam kerja tim. Fokus saya bukan “siapa benar”, tetapi “bagaimana pendapat bisa dipakai untuk membuat kerja bareng jadi lebih efektif dan sehat”.\nMenurut saya, banyak konflik tim terasa “personal” padahal akar masalahnya “teknis”: parameter kolaborasi tidak pernah disepakati. Ketika parameter kabur, opini jadi saling tabrak, lalu emosi ikut naik.\nSaya pernah mengalami situasi seperti ini: tim sudah merasa “sepakat”, lalu dua hari sebelum deadline baru sadar definisi “selesai” tiap orang berbeda. Satu pihak menganggap “selesai = laporan jadi”, pihak lain menganggap “selesai = laporan + slide + demo”. Akhirnya terjadi debat panjang, tugas dirombak, dan masalah yang awalnya teknis berubah terasa seperti “tidak saling menghargai”.\nDari situ saya belajar: bukan opininya yang salah, tetapi kita telat menyamakan konteks.\nDiagram berikut menunjukkan dua jalur: tanpa protokol (opini menjadi konflik), dan dengan handshake (opini menjadi keputusan kerja).\nSaya menerima bahwa opini wajar berbeda, karena opini terbentuk dari campuran informasi, persepsi, perasaan, nilai, dan pengalaman. Jadi tujuan diskusi bukan membuat semua orang punya opini yang sama, melainkan membuat perbedaan itu bisa diolah menjadi keputusan bersama.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#beban-utama-perbedaan-opini-yang-menjadi-konflik-parameter",
+    "href": "My_Opinions/index.html#beban-utama-perbedaan-opini-yang-menjadi-konflik-parameter",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.2 Beban Utama: Perbedaan Opini yang Menjadi Konflik Parameter",
+    "text": "7.2 Beban Utama: Perbedaan Opini yang Menjadi Konflik Parameter\nOpini sering “meledak” di kerja tim karena orang sebenarnya sedang bertengkar tentang parameter yang berbeda, contohnya:\n\nA ingin cepat selesai, B ingin rapi dan lengkap\nA menganggap chat dibalas cepat itu sopan, B menganggap balas besok itu normal\nA menganggap kritik itu bagian kerja, B merasa kritik itu serangan\n\nKalau parameter tidak pernah disepakati, opini akan seperti “paket data” yang dikirim tanpa protokol. Akhirnya yang muncul adalah salah paham berulang, rework, dan emosi naik karena merasa “tidak dihargai”.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#opini-saya-opini-yang-baik-harus-punya-sinyal-dan-punya-pintu-keluar",
+    "href": "My_Opinions/index.html#opini-saya-opini-yang-baik-harus-punya-sinyal-dan-punya-pintu-keluar",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.2 Opini Saya: Opini yang Baik Harus Punya Sinyal dan Punya Pintu Keluar",
+    "text": "7.2 Opini Saya: Opini yang Baik Harus Punya Sinyal dan Punya Pintu Keluar\nSaya berpendapat bahwa pendapat yang berguna itu bukan yang paling keras, tetapi yang paling bisa diuji dan dibicarakan. Supaya opini tidak berubah jadi debat ego, saya pakai dua aturan pribadi.\n\n7.2.1 1) Selalu beri sinyal: ini opini personal atau “aturan tim”\nKalau saya bicara dari preferensi pribadi, saya bilang itu preferensi. Kalau saya bicara untuk “aturan main tim”, saya bilang itu aturan yang saya usulkan untuk semua. Ini mencegah orang merasa saya sedang memaksakan selera pribadi menjadi standar universal.\n\n\n7.2.2 2) Hindari dua ekstrem\nSaya berusaha menghindari dua ekstrem:\n\npendapat kuat tapi bahan dasarnya minim\nmenolak berpendapat padahal informasi sudah cukup\n\nKalau informasi saya kurang, saya bilang “sementara”. Kalau informasi cukup, saya berani mengambil posisi, tetapi tetap bisa berubah jika ada data atau sudut pandang baru.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#menghubungkan-dengan-konsep-human-handshake-untuk-opini",
+    "href": "My_Opinions/index.html#menghubungkan-dengan-konsep-human-handshake-untuk-opini",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.5 Menghubungkan dengan Konsep: Human Handshake untuk Opini",
+    "text": "7.5 Menghubungkan dengan Konsep: Human Handshake untuk Opini\nSaya menghubungkan ini dengan konsep saya sebelumnya: Human Handshake Protocol. Intinya, sebelum debat opini, kita lakukan handshake singkat supaya konteksnya sama.\nBuat saya, handshake bukan untuk “membunuh” opini. Handshake membuat opini bisa dipakai sebagai bahan keputusan. Tanpa handshake, dua orang bisa debat lama padahal yang berbeda hanya definisi “selesai”, standar kualitas, atau batasan waktu. Dengan handshake, perbedaan itu cepat terlihat dan bisa diselesaikan.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#protokol-5-menit-yang-saya-usulkan",
+    "href": "My_Opinions/index.html#protokol-5-menit-yang-saya-usulkan",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.6 Protokol 5 Menit yang Saya Usulkan",
+    "text": "7.6 Protokol 5 Menit yang Saya Usulkan\n\n7.6.1 Langkah 1: Letakkan opini berdampingan (tanpa menyerang)\nTulis dua versi secara netral:\n\n“Versi A: …”\n“Versi B: …”\n\nTujuannya bukan menang, tetapi membuat perbedaan terlihat jelas.\n\n\n7.6.2 Langkah 2: Bedah dasar opininya (bukan orangnya)\nTanya cepat untuk menemukan sumber perbedaan:\n\nInformasi apa yang kamu pakai?\nNilai apa yang kamu jaga?\nPengalaman apa yang bikin kamu yakin?\nAda perasaan yang perlu dipahami dulu?\n\nBagian ini penting karena dua opini bisa terlihat bertentangan, tetapi sebenarnya sedang melindungi hal yang berbeda.\n\n\n7.6.3 Langkah 3: Putuskan outputnya\n\nKalau bisa: rekonsiliasi jadi 1 keputusan tim.\nKalau tidak: sepakat berbeda, lalu pilih mekanisme keputusan yang jelas (misalnya voting, PIC memutuskan, atau trial kecil 1–2 hari).\n\nKeputusan lebih penting daripada debat yang tidak berujung.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#template-opini-yang-aman-dipakai-di-tim",
+    "href": "My_Opinions/index.html#template-opini-yang-aman-dipakai-di-tim",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.7 Template Opini yang Aman Dipakai di Tim",
+    "text": "7.7 Template Opini yang Aman Dipakai di Tim\n\n\n\n\n\n\nNote\n\n\n\nTemplate Opini\n\nSinyal: Ini opini (personal / untuk tim)\n\nPendapat saya: …\n\nDasar informasi: …\n\nNilai yang saya jaga: …\n\nPengalaman relevan: …\n\nHal yang bisa mengubah pendapat saya: …\n\nUsulan keputusan tim (1 kalimat): …",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#penutup",
+    "href": "My_Opinions/index.html#penutup",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.6 Penutup",
+    "text": "7.6 Penutup\nOpini tidak bisa dihilangkan dari kerja tim, dan menurut saya memang tidak perlu. Yang perlu adalah membuat opini “bisa dioperasikan”.\nDengan handshake singkat, kita tidak mengurangi kebebasan orang berpendapat. Kita hanya mengurangi biaya miskom, dan mengubah energi debat menjadi keputusan yang bisa dieksekusi.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html",
+    "href": "My_Innovations/index.html",
+    "title": "8  UAS-3 My Innovations",
+    "section": "",
+    "text": "8.1 Handshake Kit: Inovasi Praktis dari Human Handshake Protocol\nInovasi utama saya adalah membuat Handshake Kit, yaitu seperangkat alat yang bisa langsung dipakai untuk menjalankan konsep Human Handshake Protocol (TCP/TLS untuk kolaborasi) secara konsisten. Kalau konsep saya di UAS-1 adalah “mesin abstrak” yang mengurangi misalignment, maka inovasi ini adalah “implementasi lapangan” supaya handshake tidak cuma jadi ide, tetapi jadi kebiasaan tim.\nTujuan inovasi ini sederhana: membuat proses menyamakan parameter kerja jadi cepat, ringan, dan terukur, sehingga konflik yang muncul tidak lagi kabur dan personal, tetapi bisa ditangani sebagai perbedaan parameter.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#masalah-yang-saya-targetkan",
+    "href": "My_Innovations/index.html#masalah-yang-saya-targetkan",
+    "title": "8  UAS-3 My Innovations",
+    "section": "8.2 Masalah yang Saya Targetkan",
+    "text": "8.2 Masalah yang Saya Targetkan\nDalam kerja tim, miskom sering bukan karena orang tidak peduli, tetapi karena:\n\ndefinisi “selesai” beda\nperan dan hak keputusan tidak jelas\nekspektasi respons dan ritme kerja berbeda\nscope berubah tanpa re-handshake\n\nMasalahnya bukan kurang ngobrol, tetapi ngobrol tanpa struktur.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk",
+    "href": "My_Innovations/index.html#ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk",
+    "title": "8  UAS-3 My Innovations",
+    "section": "8.3 Ide Inovasi: Mengubah Handshake dari “Obrolan” menjadi “Produk”",
+    "text": "8.3 Ide Inovasi: Mengubah Handshake dari “Obrolan” menjadi “Produk”\nHandshake Kit adalah inovasi karena ia:\n\nMengubah handshake menjadi artefak yang bisa disalin, dipakai ulang, dan dievaluasi.\nMengurangi ketergantungan pada “chemistry tim”.\nMembuat misalignment terlihat cepat lewat format yang sama untuk semua orang.\n\nDengan kata lain, kit ini memaksa tim menyepakati parameter seperti protokol jaringan: jelas, eksplisit, ada ACK, dan ada aturan re-handshake.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#komponen-handshake-kit",
+    "href": "My_Innovations/index.html#komponen-handshake-kit",
+    "title": "8  UAS-3 My Innovations",
+    "section": "8.4 Komponen Handshake Kit",
+    "text": "8.4 Komponen Handshake Kit\n\n8.4.1 1) Kickoff Script (2 sampai 5 menit)\nSkrip singkat untuk memulai kolaborasi tanpa terasa kaku.\nVersi ringkas: - Tujuan kita apa? - Output finalnya apa? - Deadline dan batasan apa? - Siapa pegang apa? - Komunikasi lewat apa dan seberapa sering? - Kalau beda pendapat, siapa yang memutuskan?\nSkrip ini membuat handshake tidak tergantung orang yang “paling cerewet”.\n\n\n8.4.2 2) Handshake Canvas (1 halaman)\nCanvas adalah ringkasan kesepakatan tim yang ditulis sekali, lalu jadi rujukan saat konflik.\nIsi canvas: - Goal - Done Definition - Roles (PIC per bagian) - Decision Rule - Communication (channel, cadence, response time) - Re-handshake Triggers\nKalau ada konflik, tim cukup kembali ke canvas dan cek bagian mana yang tidak sinkron.\n\n\n8.4.3 3) Opinion-to-Decision Template (untuk UAS-2 ke praktik)\nTemplate untuk menyampaikan opini dengan aman, lalu mengubahnya jadi keputusan.\nFormat: - Sinyal: opini personal atau usulan aturan tim - Dasar: informasi, nilai, pengalaman - Hal yang bisa mengubah opini - Usulan keputusan (1 kalimat)\nIni membuat diskusi tidak muter di “rasa tersinggung”, tetapi bergerak ke “keputusan”.\n\n\n8.4.4 4) Re-handshake Ticket (untuk perubahan scope)\nBentuknya seperti “ticket” atau “issue” kecil yang dipakai saat scope berubah.\nIsi ticket: - Apa yang berubah? - Dampaknya ke waktu, kualitas, peran - Parameter apa yang perlu disepakati ulang - Tanggal mulai berlaku\nIni menghindari scope creep diam-diam.\n\n\n8.4.5 5) Mini-Rubrik Evaluasi (biar terukur)\nSupaya kit ini tidak sekadar formalitas, saya pakai indikator sederhana:\n\nRework turun atau tidak?\nKonflik berulang tentang topik yang sama masih terjadi atau tidak?\nApakah semua orang bisa menyebut “definisi selesai” yang sama?\nApakah keputusan lebih cepat tercapai?\n\nKalau indikator memburuk, berarti handshake kurang lengkap atau butuh re-handshake.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#cara-pakai-di-situasi-nyata",
+    "href": "My_Innovations/index.html#cara-pakai-di-situasi-nyata",
+    "title": "8  UAS-3 My Innovations",
+    "section": "8.5 Cara Pakai di Situasi Nyata",
+    "text": "8.5 Cara Pakai di Situasi Nyata\n\n8.5.1 Skenario: Tugas kelompok\n\nPakai Kickoff Script 5 menit.\nIsi Handshake Canvas 1 halaman.\nSaat debat, pakai Opinion-to-Decision Template.\nSaat scope berubah, buat Re-handshake Ticket 2 menit.\nAkhir minggu, cek Mini-Rubrik Evaluasi.\n\nDengan alur ini, tim tidak menunggu konflik besar untuk “baru ngomong”.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#validitas-dan-batasan-inovasi",
+    "href": "My_Innovations/index.html#validitas-dan-batasan-inovasi",
+    "title": "8  UAS-3 My Innovations",
+    "section": "8.6 Validitas dan Batasan Inovasi",
+    "text": "8.6 Validitas dan Batasan Inovasi\nKenapa masuk akal: - Kit ini tidak menciptakan kerja baru, hanya memindahkan kerja yang biasanya muncul sebagai konflik menjadi kerja awal yang lebih murah. - Sama seperti TCP/TLS, negosiasi parameter di depan membuat “transfer data” berikutnya lebih stabil.\nBatasan: - Kalau ada anggota yang memang berniat tidak kooperatif, kit ini tidak otomatis menyelesaikan masalah karakter. - Kalau relasi sudah rusak parah, butuh mediasi lebih dalam. Kit ini tetap membantu struktur, tetapi tidak menggantikan perbaikan relasi.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#output-praktis-yang-saya-hasilkan",
+    "href": "My_Innovations/index.html#output-praktis-yang-saya-hasilkan",
+    "title": "8  UAS-3 My Innovations",
+    "section": "8.7 Output Praktis yang Saya Hasilkan",
+    "text": "8.7 Output Praktis yang Saya Hasilkan\nHandshake Kit menghasilkan artefak yang bisa langsung dipakai ulang:\n\nKickoff Script (copy-paste)\nHandshake Canvas (1 halaman)\nOpinion-to-Decision Template\nRe-handshake Ticket\nMini-Rubrik Evaluasi\n\nIni adalah inovasi yang saya pilih karena paling dekat dengan kebutuhan sehari-hari, mudah diuji, dan mudah dibawa ke berbagai konteks: tugas kuliah, organisasi, game jam, sampai kerja profesional.\n\n\n\n\n\n\nNoteHandshake Kit (Versi 60 Detik)\n\n\n\n\nGoal dan definisi selesai\n\nBatasan dan risiko\n\nPeran dan hak keputusan\n\nKanal, ritme, ekspektasi respons\n\nMutual ACK: “Kita sepakat bahwa…”\n\nRe-handshake jika scope berubah atau konflik berulang",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Innovations/index.html#handshake-kit-inovasi-praktis-dari-human-handshake-protocol",
+    "href": "My_Innovations/index.html#handshake-kit-inovasi-praktis-dari-human-handshake-protocol",
+    "title": "8  UAS-3 My Innovations",
+    "section": "",
+    "text": "flowchart TD\n    A[Masalah: Misalignment] --&gt; B[Konsep: Human Handshake Protocol]\n    B --&gt; C[Handshake Kit]\n    C --&gt; D1[Kickoff Script]\n    C --&gt; D2[Handshake Canvas]\n    C --&gt; D3[Opinion-to-Decision Template]\n    C --&gt; D4[Re-handshake Ticket]\n    C --&gt; D5[Mini-Rubrik Evaluasi]\n    D1 --&gt; E[Output: parameter jelas]\n    D2 --&gt; E\n    D3 --&gt; F[Output: debat jadi keputusan]\n    D4 --&gt; G[Output: scope change terkendali]\n    D5 --&gt; H[Output: bisa diukur]\n    E --&gt; I[Hasil: rework turun, konflik berulang berkurang]\n    F --&gt; I\n    G --&gt; I\n    H --&gt; I\n\n\n\n\n\n\n\n\n8.1.1 Apa yang membuat ini benar-benar “inovasi” (bukan sekadar saran komunikasi)\nHandshake Kit berbeda dari nasihat umum “komunikasi yang baik” karena:\n\npunya fase handshake yang jelas (bukan ngobrol bebas)\nwajib ada mutual ACK (verifikasi pemahaman)\nada re-handshake triggers (kapan harus negosiasi ulang)\nmenghasilkan artefak (canvas, ticket, template), bukan cuma diskusi\n\nDengan kata lain, kit ini mengubah “obrolan” menjadi “protokol + dokumen”.\n\n\n8.1.2 Paket adopsi (biar gampang dipakai tim)\nAgar Adoption naik, saya menyiapkan cara pakai yang “plug and play”.\nHari 1 (Kickoff 10 menit): 1. Jalankan Kickoff Script 5 menit. 2. Isi Handshake Canvas 1 halaman. 3. Simpan Canvas di tempat yang semua orang pasti lihat (pinned message atau dokumen utama).\nSetiap hari / setiap sesi kerja (2 menit): - Update singkat: “done, next, blocker”.\nSetiap ada perubahan scope (2 menit): - Buat Re-handshake Ticket.\nAkhir minggu (5 menit): - Cek Mini-Rubrik Evaluasi dan putuskan apakah perlu re-handshake.\n\n\n8.1.3 Metrik mini (biar terukur dan menaikkan Value + Validity)\nSaya memilih metrik yang gampang dihitung tanpa tool khusus:\n\nRework count: berapa kali revisi karena “salah paham requirement” (bukan karena kualitas).\nTime-to-decision: berapa menit diskusi sampai keputusan final (khusus isu yang sebelumnya sering muter).\nRepeated-conflict count: berapa kali topik konflik yang sama muncul dalam satu minggu.\nAlignment check: semua anggota bisa menyebut definisi “selesai” yang sama (ya/tidak).\n\nKalau angka-angka ini membaik, berarti kit benar-benar bekerja. Kalau memburuk, berarti handshake kurang lengkap atau scope sudah berubah tapi belum re-handshake.\n\n\n8.1.4 Failure modes inovasi (biar realistis dan siap dipakai)\n\nOrang malas mengisi karena terasa “ribet”.\nSolusi: pakai versi 60 detik dulu, lalu naikkan kedalaman hanya kalau proyeknya besar.\nCanvas ada, tapi tidak pernah dibuka lagi.\nSolusi: jadikan Canvas sebagai “single source of truth”; setiap keputusan baru harus mengacu ke Canvas atau update Canvas.\nSatu orang dominan memaksakan parameter.\nSolusi: sebelum final ACK, wajib ada “concern check” singkat: setiap orang menyebut 1 risiko atau keberatan.\nRe-handshake lupa dilakukan saat scope berubah.\nSolusi: trigger eksplisit: setiap perubahan requirement harus menghasilkan Ticket, walau cuma 3 baris.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>UAS-3 My Innovations</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html",
+    "href": "My_Knowledge/index.html",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "",
+    "text": "9.1 Pengetahuan untuk Kolaborasi: Dari “Tahu” ke “Bisa Dipakai”\nDi bagian ini saya menulis tentang pengetahuan (knowledge) yang saya anggap paling penting dalam konteks komunikasi interpersonal dan kerja tim. Bagi saya, pengetahuan bukan sekadar banyak informasi. Pengetahuan adalah pemahaman yang cukup jelas untuk dipakai mengambil keputusan, menjelaskan alasan, dan memprediksi akibatnya.\nDalam kerja kelompok, masalah utama sering bukan “kurang pintar”, tetapi “pengetahuan yang tidak sinkron”. Dua orang bisa sama-sama merasa paham, tetapi yang dipahami berbeda. Karena itu, saya memandang pengetahuan sebagai sesuatu yang perlu dibuat eksplisit, dibagi, lalu diverifikasi, supaya tim punya peta yang sama.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#beban-yang-ingin-saya-atasi",
+    "href": "My_Knowledge/index.html#beban-yang-ingin-saya-atasi",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.2 Beban yang Ingin Saya Atasi",
+    "text": "9.2 Beban yang Ingin Saya Atasi\nBeban yang sering muncul dalam kolaborasi:\n\nOrang menganggap semua sudah jelas, padahal definisi dan asumsi berbeda.\nKeputusan diambil dari “katanya” atau intuisi, tanpa dasar yang bisa dijelaskan.\nInformasi tersebar di chat, tidak menjadi pengetahuan bersama yang bisa dirujuk.\nSaat konflik muncul, tim tidak punya rujukan yang sama untuk kembali ke akar masalah.\n\nBeban ini biasanya terlihat sebagai rework, miskom yang berulang, dan keputusan yang lambat.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#opini-pengetahuan-saya-pengetahuan-yang-baik-harus-terstruktur-dan-teruji",
+    "href": "My_Knowledge/index.html#opini-pengetahuan-saya-pengetahuan-yang-baik-harus-terstruktur-dan-teruji",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.3 Opini Pengetahuan Saya: Pengetahuan yang Baik Harus “Terstruktur” dan “Teruji”",
+    "text": "9.3 Opini Pengetahuan Saya: Pengetahuan yang Baik Harus “Terstruktur” dan “Teruji”\nSaya punya dua prinsip sederhana supaya pengetahuan tidak cuma jadi hafalan.\n\n9.3.1 1) Pengetahuan harus terstruktur (biar jelas dan bisa dipakai)\nSaya membagi pengetahuan kerja tim menjadi tiga jenis:\n\nFakta (what)\nApa yang benar, apa yang terjadi, apa yang dibutuhkan.\nProsedur (how)\nBagaimana cara mengerjakan, alur kerja, siapa melakukan apa.\nKonteks dan alasan (why)\nKenapa kita memilih cara itu, nilai apa yang dijaga, trade-off apa yang diterima.\n\nKalau cuma punya fakta tanpa prosedur, tim bingung eksekusi. Kalau punya prosedur tanpa alasan, tim gampang pecah saat ada perubahan kondisi.\n\n\n9.3.2 2) Pengetahuan harus teruji (biar valid, bukan sekadar yakin)\nSaya menganggap pengetahuan itu valid kalau:\n\nbisa dijelaskan ulang dengan kalimat sendiri\nbisa dipakai untuk membuat prediksi kecil (misalnya: “kalau kita ubah X, dampaknya Y”)\nbisa diuji lewat contoh, data, atau percobaan kecil\ntetap masuk akal walaupun dikritik\n\nDengan cara ini, saya menghindari dua ekstrem: sok yakin tanpa dasar, atau ragu terus padahal sudah cukup informasi.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#cara-saya-membangun-pengetahuan-dalam-kerja-tim",
+    "href": "My_Knowledge/index.html#cara-saya-membangun-pengetahuan-dalam-kerja-tim",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.4 Cara Saya Membangun Pengetahuan dalam Kerja Tim",
+    "text": "9.4 Cara Saya Membangun Pengetahuan dalam Kerja Tim\nSaya pakai alur yang konsisten supaya pengetahuan cepat jadi “milik bersama”, bukan cuma ada di kepala satu orang.\n\n\n\n\n\n\nflowchart TD\n  A[Informasi mentah] --&gt; B[Seleksi: relevan untuk keputusan]\n  B --&gt; C[Ubah jadi klaim yang jelas]\n  C --&gt; D[Verifikasi: ringkasan bersama]\n  D --&gt; E[Dokumentasi: canvas / catatan keputusan]\n  E --&gt; F[Pengetahuan bersama]\n  F --&gt; G[Keputusan lebih cepat & stabil]\n  F --&gt; H[Eksekusi lebih rapi]\n  F --&gt; I[Konflik turun karena parameter jelas]\n\n\n\n\n\n\n\n\n9.4.1 Langkah 1: Kumpulkan informasi yang relevan (bukan semua informasi)\nSaya cari informasi yang langsung mempengaruhi keputusan, misalnya:\n\nkebutuhan tugas dan kriteria penilaian\nbatasan waktu, resource, kemampuan tim\ncontoh output yang diharapkan\nrisiko yang paling mungkin terjadi\n\nTujuannya supaya tim tidak tenggelam di detail yang tidak berdampak.\n\n\n9.4.2 Langkah 2: Ubah informasi jadi klaim yang jelas\nSaya biasakan mengubah “informasi mentah” menjadi kalimat klaim yang tegas, misalnya:\n\n“Definisi selesai kita adalah: laporan + slide + demo.”\n“Batasan kita: waktu kerja efektif 3 hari, jadi scope harus diperkecil.”\n“Risiko terbesar: integrasi terakhir. Jadi integrasi harus mulai lebih awal.”\n\nKalimat klaim ini memudahkan orang untuk setuju atau tidak setuju.\n\n\n9.4.3 Langkah 3: Verifikasi pemahaman dengan ringkasan (mutual check)\nSaya minta setiap orang bisa merangkum kesepakatan dengan versi mereka sendiri. Kalau ringkasannya berbeda, berarti pengetahuan belum sinkron, dan harus diperbaiki sebelum eksekusi.\n\n\n9.4.4 Langkah 4: Dokumentasikan dalam format ringkas yang bisa dirujuk\nPengetahuan yang tidak ditulis biasanya menguap. Jadi saya suka menulis versi singkatnya, misalnya dalam bentuk canvas satu halaman atau catatan keputusan.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#inovasi-kecil-yang-saya-pakai-untuk-membuat-pengetahuan-jadi-berguna",
+    "href": "My_Knowledge/index.html#inovasi-kecil-yang-saya-pakai-untuk-membuat-pengetahuan-jadi-berguna",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.6 Inovasi kecil yang saya pakai untuk membuat pengetahuan jadi berguna",
+    "text": "9.6 Inovasi kecil yang saya pakai untuk membuat pengetahuan jadi berguna\nAgar pengetahuan tidak berhenti di “paham”, saya pakai dua artefak sederhana.\n\n9.6.1 1) Decision Log (catatan keputusan)\nSetiap keputusan penting saya tulis dalam format:\n\nKeputusan: kita memilih apa\nAlasan: kenapa memilih itu\nAsumsi: apa yang kita anggap benar\nDampak: apa yang berubah setelah keputusan\n\nIni membantu saat tim lupa alasan, atau saat kondisi berubah.\n\n\n9.6.2 2) Knowledge Card (kartu pengetahuan)\nKartu ini saya pakai untuk menyusun pengetahuan agar jelas dan teruji.\n\n\n\n\n\n\nNoteTemplate Knowledge Card (Copy-Paste)\n\n\n\n\nKlaim utama: …\nDasar (data / contoh / pengalaman): …\nAsumsi yang dipakai: …\nRisiko kalau klaim salah: …\nTes kecil berikutnya untuk memvalidasi: …\nSiapa PIC: …\n\n\n\nDengan format ini, pengetahuan jadi bisa diperdebatkan dengan sehat, karena yang dibahas adalah klaim dan dasarnya, bukan orangnya.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#kenapa-pengetahuan-ini-berguna-untuk-komunikasi-interpersonal",
+    "href": "My_Knowledge/index.html#kenapa-pengetahuan-ini-berguna-untuk-komunikasi-interpersonal",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.8 Kenapa Pengetahuan Ini Berguna untuk Komunikasi Interpersonal",
+    "text": "9.8 Kenapa Pengetahuan Ini Berguna untuk Komunikasi Interpersonal\nMenurut saya, komunikasi interpersonal yang baik bukan cuma “ramah” atau “lancar bicara”. Komunikasi yang baik membuat pengetahuan bersama terbentuk.\nKalau pengetahuan bersama terbentuk, maka:\n\nkonflik lebih cepat diarahkan ke akar masalah\nkeputusan lebih cepat diambil karena parameternya jelas\norang merasa dihargai karena pendapatnya masuk ke struktur pengetahuan tim\nkerja tim lebih stabil saat ada perubahan scope",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#penutup",
+    "href": "My_Knowledge/index.html#penutup",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.9 Penutup",
+    "text": "9.9 Penutup\nPengetahuan yang saya anggap paling penting adalah pengetahuan yang bisa dipakai. Artinya: jelas strukturnya, bisa diuji validitasnya, dan menghasilkan tindakan yang lebih rapi.\nDengan membuat pengetahuan eksplisit (klaim, dasar, asumsi, tes), saya merasa kerja tim jadi lebih ringan, konflik berkurang, dan komunikasi interpersonal lebih sehat karena semua orang berbicara di atas peta yang sama.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Concepts/index.html#upgrade-untuk-skor-a-clarity-logic-validity-usefulness",
+    "href": "My_Concepts/index.html#upgrade-untuk-skor-a-clarity-logic-validity-usefulness",
+    "title": "6  UAS-1 My Concepts",
+    "section": "6.2 Upgrade untuk Skor A (Clarity, Logic, Validity, Usefulness)",
+    "text": "6.2 Upgrade untuk Skor A (Clarity, Logic, Validity, Usefulness)\nBagian ini memperkuat rubrik, terutama Validity (contoh nyata, failure mode, batasan jujur) tanpa mengurangi Clarity dan Usefulness.\n\n6.2.1 Definisi Operasional (biar “parameter” tidak abstrak)\nYang saya maksud parameter kolaborasi adalah hal-hal yang bisa diobservasi dan dicek, misalnya:\n\nDefinisi selesai: deliverable + kriteria diterima (acceptance criteria) + deadline\nContoh: “Selesai = laporan 6 halaman + slide 10 halaman + demo jalan, deadline Jumat 17.00.”\nAturan keputusan: siapa memutuskan saat beda pendapat (voting, PIC, trial)\nContoh: “Kalau debat &gt; 10 menit, PIC memutuskan.”\nEkspektasi respons: batas waktu membalas di kanal utama\nContoh: “Respons maksimal 12 jam untuk chat penting.”\n\nSedangkan mutual ACK adalah kondisi ketika setiap pihak bisa merangkum kesepakatan dalam 3–5 kalimat, dan ringkasannya tidak berbeda secara substansi.\n\n\n6.2.2 Minimum Viable Handshake (Versi 30 Detik)\nKalau kondisi sangat terburu-buru, handshake minimum saya adalah:\n\nGoal: “Kita mau ngapain?”\nDone: “Selesai itu output apa + deadline?”\nOwner: “Siapa PIC bagian inti?”\nChannel: “Komunikasi lewat mana?”\nDecision rule: “Kalau beda pendapat, siapa memutuskan?”\n\nVersi ini menjaga usefulness tetap tinggi karena bisa dipakai kapan pun.\n\n\n6.2.3 Micro Case Study (untuk Validity)\nKasus: tugas kelompok, tim 4 orang, deadline 3 hari.\nSebelum handshake:\n- “Selesai” versi A: asal ada laporan.\n- “Selesai” versi B: harus ada demo dan slide.\nAkibatnya: hari ke-2 terjadi debat panjang, laporan dirombak, integrasi mepet deadline.\nSesudah handshake (10 menit):\n- Definisi selesai ditulis: “laporan + slide + demo minimal.”\n- PIC integrasi ditetapkan sejak hari pertama.\n- Ritme update disepakati: rekap jam 21.00.\nHasil observabel: revisi berkurang, keputusan lebih cepat, dan tidak ada debat ulang tentang “selesai itu apa”.\n\n\n6.2.4 Failure Modes (kapan konsep ini gagal) dan Fix-nya\n\nHandshake dilakukan, tapi orang cuma “iya” tanpa komit.\nFix: sebelum ACK, tanyakan “Apakah kamu benar-benar setuju dan sanggup commit?” Jika tidak, revisi scope atau peran.\nHandshake jadi alat dominasi orang yang paling vokal.\nFix: lakukan ringkasan bergantian dan wajibkan “concern check” 1 menit per orang sebelum keputusan final.\nScope berubah, tapi tim lupa re-handshake.\nFix: pasang pemicu eksplisit: setiap perubahan scope memicu “re-handshake 2 menit” (tulis perubahan, dampak, dan parameter yang berubah).\n\n\n\n6.2.5 Beban [B]: Biaya Misalignment\nBanyak konflik dalam kerja tim tidak berawal dari niat buruk, tetapi dari parameter yang tidak pernah dinegosiasikan, misalnya:\n\ndefinisi “selesai” yang berbeda\nkepemilikan tugas dan hak mengambil keputusan yang tidak jelas\nekspektasi waktu respons yang tidak sama\nbatasan tersembunyi (waktu, energi, prioritas)\nscope creep yang belakangan terasa seperti masalah personal\n\nBeban [B] adalah waktu terbuang, revisi berulang, frustrasi, dan kerusakan relasi akibat misalignment.\n\n\n6.2.6 Daya [K]: Apa yang Membuat Alignment Mungkin Terjadi\nProtokol ini bergantung pada “daya” [K] yang realistis bisa disediakan orang:\n\nkejelasan (berani eksplisit)\nmendengar aktif (betul-betul menangkap maksud)\njujur soal batasan (waktu, kapasitas, prioritas)\nkosakata bersama (definisi, contoh)\ndisiplin verifikasi (cek pemahaman sebelum eksekusi)\n\n\n\n6.2.7 Mesin Abstrak: Fase-Fase Handshake\nIni adalah logika mesin yang mengubah [K] menjadi beban [B] yang terangkat. Desainnya dibuat singkat, bisa diulang, dan bisa diverifikasi.\n\n6.2.7.1 Fase 0: Niat untuk Terkoneksi\nPastikan kolaborasinya benar-benar serius, bukan sekadar ngobrol.\n\n“Ini kita komit kerja bareng, atau masih brainstorming santai?”\n\n\n\n6.2.7.2 Fase 1: Pemilihan Protokol (Tujuan dan Ukuran Sukses)\nSepakati tujuan dan cara mengukur sukses.\n\nTujuan: apa yang mau dicapai?\nKriteria sukses: “selesai” itu seperti apa?\nNon-goals: apa yang tidak akan dikerjakan\n\n\n\n6.2.7.3 Fase 2: Tukar Kapabilitas dan Batasan\nTukar informasi tentang apa yang realistis bisa diberikan masing-masing pihak.\n\nketersediaan waktu dan deadline\nskill dan resource\nrisiko dan blocker\nbatasan pribadi (prioritas lain)\n\n\n\n6.2.7.4 Fase 3: Peran, Tanggung Jawab, Hak Keputusan\nCegah kerja dobel dan deadlock saat beda pendapat.\n\nsiapa pegang bagian apa\nsiapa yang memutuskan saat terjadi konflik\ncara eskalasi saat mentok\n\n\n\n6.2.7.5 Fase 4: Parameter Komunikasi\nTentukan aturan kanal komunikasi sebelum masalah muncul.\n\nkanal (WhatsApp, Discord, Meet)\nritme (update harian, 2x seminggu, rekap mingguan)\nekspektasi waktu respons\nformat update (bullet list, checklist, rekap singkat)\n\n\n\n6.2.7.6 Fase 5: Verifikasi (Mutual ACK)\nHandshake belum selesai sampai dua pihak bisa mengulang kesepakatan dengan benar.\n\nmasing-masing merangkum: “Jadi yang kita sepakati…”\nkalau rangkuman sama: handshake selesai\nkalau beda: negosiasikan bagian yang tidak sinkron\n\n\n\n6.2.7.7 Fase 6: Pemicu Re-handshake\nNegosiasi ulang parameter saat kondisi berubah.\n\nscope berubah\nmiskom berulang\nkomitmen sering tidak terpenuhi\nanggota baru masuk\nkonflik yang sama terjadi dua kali\n\n\n\n\n6.2.8 Kenapa ini lebih “nyata” daripada konsep yang terlalu besar\nContoh konsep yang diberikan di materi terasa sangat besar dan idealistik, sehingga susah dipakai untuk kasus sehari-hari. Konsep handshake ini tetap sesuai definisi kuliah karena jelas menyebut [B], menyebut [K] yang realistis, dan punya mesin yang bisa diulang untuk melahirkan ide-ide praktis (template, checklist, ritual meeting).\n\n\n\n\n\n\nNoteHuman Handshake Checklist (Versi 1 Menit)\n\n\n\n\nTujuannya apa?\n\n“Selesai” itu seperti apa (deliverable + deadline)?\n\nBatasannya apa?\n\nSiapa pegang apa (PIC)?\n\nKomunikasinya bagaimana (kanal, ritme, waktu respons)?\n\nKalau beda pendapat, cara mutusinnya gimana (decision rule)?\n\nRangkuman bersama: “Kita sepakat bahwa…”\n\n\n\n\n\n6.2.9 Output: Ide Praktis yang Bisa Dilahirkan Konsep Ini\nKarena konsep seharusnya bisa “beranak”, protokol ini dapat menghasilkan:\n\nskrip kickoff tim\nskrip resolusi konflik (“balik ke parameter yang disepakati”)\ntemplate update mingguan\ntemplate re-handshake saat scope berubah\nrubrik singkat untuk menilai apakah komunikasi berjalan\n\nSemua ini adalah “anak ide” dari konsep induk.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>UAS-1 My Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#kerangka-dasar-kenapa-opini-berbeda-itu-wajar",
+    "href": "My_Opinions/index.html#kerangka-dasar-kenapa-opini-berbeda-itu-wajar",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.2 Kerangka Dasar: Kenapa Opini Berbeda Itu Wajar",
+    "text": "7.2 Kerangka Dasar: Kenapa Opini Berbeda Itu Wajar\nSaya menerima bahwa opini wajar berbeda, karena opini terbentuk dari campuran informasi, persepsi, perasaan, nilai, dan pengalaman. Jadi tujuan diskusi bukan membuat semua orang punya opini yang sama, melainkan membuat perbedaan itu bisa diolah menjadi keputusan bersama.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#opini-utama-saya-opini-yang-baik-harus-punya-sinyal-dan-punya-pintu-keluar",
+    "href": "My_Opinions/index.html#opini-utama-saya-opini-yang-baik-harus-punya-sinyal-dan-punya-pintu-keluar",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.3 Opini Utama Saya: Opini yang Baik Harus Punya Sinyal dan Punya Pintu Keluar",
+    "text": "7.3 Opini Utama Saya: Opini yang Baik Harus Punya Sinyal dan Punya Pintu Keluar\nSaya berpendapat bahwa pendapat yang berguna itu bukan yang paling keras, tetapi yang paling bisa diuji dan dibicarakan. Supaya opini tidak berubah jadi debat ego, saya memakai dua aturan pribadi.\n\n7.3.1 1) Selalu beri sinyal: ini opini personal atau “aturan tim”\nKalau saya bicara dari preferensi pribadi, saya bilang itu preferensi. Kalau saya bicara untuk “aturan main tim”, saya bilang itu aturan yang saya usulkan untuk semua.\nKenapa ini penting? Karena banyak konflik muncul ketika selera pribadi disalahpahami sebagai standar universal. Dengan memberi sinyal, orang punya konteks untuk menanggapi tanpa merasa dipaksa.\n\n\n7.3.2 2) Hindari dua ekstrem\nSaya berusaha menghindari dua ekstrem:\n\npendapat kuat tapi bahan dasarnya minim\nmenolak berpendapat padahal informasi sudah cukup\n\nKalau informasi saya kurang, saya bilang “sementara”. Kalau informasi cukup, saya berani mengambil posisi, tetapi tetap bisa berubah jika ada data atau sudut pandang baru.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#counterargument-agar-lebih-persuasive",
+    "href": "My_Opinions/index.html#counterargument-agar-lebih-persuasive",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.4 Counterargument (Agar Lebih Persuasive)",
+    "text": "7.4 Counterargument (Agar Lebih Persuasive)\nOrang yang tidak setuju biasanya akan bilang: “Handshake itu ribet dan buang waktu. Kita kan cuma perlu kerja, bukan bikin prosedur.”\nSaya paham kritik itu. Tetapi menurut saya, handshake itu seperti “biaya di depan” yang lebih murah daripada “biaya konflik di belakang”.\n\nHandshake 5 menit itu murah.\nRework 2 jam karena miskom itu mahal.\nKonflik yang terasa personal itu jauh lebih mahal lagi, karena merusak trust untuk kolaborasi berikutnya.\n\nKarena itu saya suka versi minimum: handshake 30 detik untuk menyepakati goal, definisi selesai, PIC, kanal, dan aturan keputusan.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Opinions/index.html#penutup-3-aturan-pribadi-yang-akan-saya-jalankan",
+    "href": "My_Opinions/index.html#penutup-3-aturan-pribadi-yang-akan-saya-jalankan",
+    "title": "7  UAS-2 My Opinions",
+    "section": "7.8 Penutup (3 Aturan Pribadi yang Akan Saya Jalankan)",
+    "text": "7.8 Penutup (3 Aturan Pribadi yang Akan Saya Jalankan)\nKalau saya ringkas, opini saya tentang perbedaan pendapat di tim adalah ini:\n\nSaya akan selalu menyatakan apakah ini preferensi personal atau usulan aturan tim.\n\nSaya akan membahas dasar opini (informasi, nilai, pengalaman), bukan menyerang orangnya.\n\nSaya akan mendorong diskusi berakhir pada keputusan yang jelas, bukan debat yang berputar.\n\nOpini tidak bisa dihilangkan dari kerja tim, dan menurut saya memang tidak perlu. Yang perlu adalah membuat opini “bisa dioperasikan”. Dengan handshake singkat, kita tidak mengurangi kebebasan orang berpendapat. Kita hanya mengurangi biaya miskom, dan mengubah energi debat menjadi keputusan yang bisa dieksekusi.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>UAS-2 My Opinions</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#pengetahuan-untuk-kolaborasi-dari-tahu-ke-bisa-dipakai",
+    "href": "My_Knowledge/index.html#pengetahuan-untuk-kolaborasi-dari-tahu-ke-bisa-dipakai",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "",
+    "text": "9.1.1 Definisi operasional (biar “knowledge” tidak abstrak)\nDalam konteks kolaborasi, saya memakai definisi praktis:\n\nInformasi: potongan fakta atau pesan (misalnya chat, brief, catatan).\nPengetahuan bersama: informasi yang sudah disepakati maknanya, ditulis ringkas, dan bisa dirujuk untuk keputusan.\nSinkron: semua anggota bisa mengulang definisi kunci (misalnya definisi “selesai”) dengan isi yang sama.\n\nKalau pengetahuan tidak sinkron, tim biasanya tidak gagal karena kurang bekerja, tetapi gagal karena bekerja ke arah yang berbeda.\n\n\n9.1.2 Indikator observabel (agar validitas naik)\nSaya menilai “pengetahuan bersama” sudah terbentuk jika:\n\nSemua anggota bisa menyebut definisi selesai yang sama (ya/tidak).\nSemua anggota tahu siapa PIC untuk bagian inti (ya/tidak).\nSemua anggota tahu aturan keputusan ketika beda pendapat (ya/tidak).\nKeputusan bisa dijelaskan dengan format: “kita memilih X karena Y, dengan asumsi Z”.\n\nKalau indikator ini tidak terpenuhi, saya anggap tim masih berada di level “informasi”, belum menjadi “pengetahuan bersama”.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#contoh-knowledge-card-yang-terisi-untuk-validity",
+    "href": "My_Knowledge/index.html#contoh-knowledge-card-yang-terisi-untuk-validity",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.5 Contoh Knowledge Card yang Terisi (untuk Validity)",
+    "text": "9.5 Contoh Knowledge Card yang Terisi (untuk Validity)\nContoh ini saya buat dari skenario tugas kelompok agar terlihat nyata.\n\n\n\n\n\n\nNoteKnowledge Card (Contoh Terisi)\n\n\n\n\nKlaim utama: Definisi selesai untuk tugas ini adalah “laporan + slide + demo minimal berjalan”.\nDasar (data / contoh / pengalaman): Rubrik butuh presentasi; pengalaman tugas sebelumnya gagal karena demo tidak siap meski laporan lengkap.\nAsumsi yang dipakai: Tim punya waktu 3 hari; demo minimal cukup (tidak perlu polish berlebihan).\nRisiko kalau klaim salah: Jika ternyata rubrik menuntut demo lebih lengkap, nilai turun.\nTes kecil berikutnya untuk memvalidasi: Dalam 24 jam pertama, buat demo skeleton (fitur inti saja) dan minta 1 orang cek sesuai brief.\nSiapa PIC: PIC Demo = A, PIC Laporan = B, PIC Slide = C, PIC Integrasi = D.\n\n\n\nContoh terisi ini membantu meningkatkan validitas, karena menunjukkan pengetahuan bukan teori, tapi bisa dipakai untuk keputusan nyata.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Knowledge/index.html#failure-modes-kapan-pengetahuan-gagal-dan-fix-nya",
+    "href": "My_Knowledge/index.html#failure-modes-kapan-pengetahuan-gagal-dan-fix-nya",
+    "title": "9  UAS-4 My Knowledge",
+    "section": "9.7 Failure Modes (kapan pengetahuan “gagal”) dan Fix-nya",
+    "text": "9.7 Failure Modes (kapan pengetahuan “gagal”) dan Fix-nya\n\nFalse agreement: semua mengangguk, tapi definisi kunci berbeda di kepala masing-masing.\nFix: wajibkan ringkasan bergantian (mutual check) dan tulis 1 kalimat definisi “selesai”.\nInfo tercecer: keputusan ada di chat, tapi hilang ditelan pesan baru.\nFix: pilih satu tempat “single source of truth” (canvas/notes) dan biasakan mencatat keputusan.\nDominance: satu orang menentukan “pengetahuan” tanpa ruang koreksi.\nFix: pisahkan klaim dan orangnya; minta minimal 1 counterpoint atau risiko sebelum keputusan final.\nAssumption blind spot: tim tidak sadar asumsi yang mereka pakai.\nFix: setiap keputusan harus menuliskan minimal 1 asumsi yang eksplisit.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>UAS-4 My Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html",
+    "href": "My_Professional_Reviews/index.html",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "",
+    "text": "10.1 Identitas Review\nReviewer: 18224049 Nizham Rafa Lazuardi\nObjek yang direview: Portofolio UAS II-2100 KIPP (UAS-1 s.d. UAS-4)\nTujuan: Menilai kualitas artikel secara profesional: jelas, runut, masuk akal, dan bisa dipakai di situasi nyata.\nSkala skor: 1 (Poor) sampai 5 (Excellent)",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#ringkasan-eksekutif",
+    "href": "My_Professional_Reviews/index.html#ringkasan-eksekutif",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.2 Ringkasan Eksekutif",
+    "text": "10.2 Ringkasan Eksekutif\nPortofolio ini punya benang merah yang kuat: mengubah komunikasi tim dari “ngobrol” menjadi “protokol yang bisa diulang”. Analogi TCP/TLS membuat ide inti mudah ditangkap, dan setiap bab konsisten menggeser konflik interpersonal menjadi persoalan parameter kerja yang bisa dinegosiasikan.\nSecara profesional, kekuatan terbesar ada pada struktur dan orientasi praktis. Area yang paling berpotensi menahan skor tertinggi biasanya bukan karena ide lemah, tetapi karena kurangnya contoh kasus yang spesifik, indikator keberhasilan yang lebih terukur, dan pembandingan singkat dengan praktik umum (misalnya team charter, RACI, kickoff meeting) supaya pembaca yakin ini bukan sekadar “nama baru untuk kebiasaan lama”.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#review-detail-uas-1-my-concepts",
+    "href": "My_Professional_Reviews/index.html#review-detail-uas-1-my-concepts",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.3 Review Detail: UAS-1 My Concepts",
+    "text": "10.3 Review Detail: UAS-1 My Concepts\n\n10.3.1 Judul: Human Handshake Protocol (TCP/TLS untuk Kolaborasi)\nKesan profesional:\nKonsepnya solid dan mudah dibayangkan. Kamu menyebut beban (misalignment) dengan jelas, menyebut daya yang dibutuhkan (kejelasan, listening, verifikasi), lalu menjadikannya mesin fase yang bisa diulang. Ini memenuhi ekspektasi “konsep sebagai mesin abstrak” dan terasa operasional.\n\n10.3.1.1 Skor Rubrik (Konsep)\n\n\n\n\n\n\n\n\nKriteria\nSkor\nCatatan Profesional\n\n\n\n\nClarity\n5\nDefinisi, istilah, dan alur fase mudah diikuti. Checklist 1 menit sangat membantu pembaca.\n\n\nLogic\n5\nRantai sebab-akibat jelas: tanpa negosiasi parameter -&gt; rework dan konflik; dengan handshake -&gt; sinkron.\n\n\nValidity\n4\nMasuk akal dan sesuai realita, tetapi akan lebih kuat jika ada 1 contoh kasus nyata singkat (2 paragraf) atau mini-skenario.\n\n\nUsefulness\n5\nSangat bisa dipakai: fase, trigger re-handshake, dan checklist langsung dapat diadopsi tim.\n\n\n\nTotal skor UAS-1: 19/20\nKekuatan utama - “Mesin”-nya jelas: fase 0 sampai 6 membuat konsep tidak abstrak. - Checklist mengubah ide menjadi tindakan cepat. - Ada trigger re-handshake, ini menambah kedewasaan konsep.\nRekomendasi perbaikan prioritas (untuk skor paling tinggi) 1. Tambahkan 1 studi kasus mini: tugas kelompok, game jam, atau organisasi. Tunjukkan sebelum vs sesudah handshake. 2. Tambahkan 1 indikator sederhana untuk “misalignment menurun” (misalnya jumlah revisi besar, atau frekuensi debat topik yang sama). 3. Tambahkan 1 paragraf “apa bedanya dengan kickoff meeting biasa” supaya novelty konsep lebih terlihat.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#review-detail-uas-2-my-opinions",
+    "href": "My_Professional_Reviews/index.html#review-detail-uas-2-my-opinions",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.4 Review Detail: UAS-2 My Opinions",
+    "text": "10.4 Review Detail: UAS-2 My Opinions\n\n10.4.1 Topik: Menangani Perbedaan Pendapat agar Jadi Keputusan Kerja\nKesan profesional:\nOpini kamu punya posisi yang jelas: tujuan diskusi bukan menang, tetapi menghasilkan keputusan kerja yang sehat. Kamu juga menormalisasi perbedaan opini sebagai campuran informasi, nilai, perasaan, dan pengalaman, lalu memberi protokol 5 menit dan template opini yang aman. Ini membuat bab opini terasa actionable, bukan sekadar nasihat.\n\n10.4.1.1 Skor Rubrik (Opini)\n\n\n\n\n\n\n\n\nKriteria\nSkor\nCatatan Profesional\n\n\n\n\nCompelling\n4\nPembuka jelas dan relevan, tetapi bisa lebih “menggigit” jika dimulai dengan contoh konflik singkat yang relatable.\n\n\nInformative\n4\nStruktur dan isi cukup kaya, namun bisa ditambah 1–2 contoh kalimat nyata saat konflik terjadi.\n\n\nPersuasive\n4\nArgumen kuat dan konsisten, tetapi akan lebih meyakinkan jika ada counterargument dan responsnya.\n\n\nEngaging\n4\nFlow enak dibaca, template membantu, namun narasi contoh akan membuatnya lebih hidup.\n\n\n\nTotal skor UAS-2: 16/20\nKekuatan utama - Dua aturan pribadi (sinyal opini vs aturan tim, hindari ekstrem) itu praktis. - Protokol 5 menit memberi jalan keluar dari debat yang muter. - Template opini sangat bisa dipakai tim tanpa banyak adaptasi.\nRekomendasi perbaikan prioritas 1. Tambahkan 1 contoh situasi “A vs B” yang kamu tulis sebagai dialog 6–8 baris. 2. Tambahkan 1 mekanisme keputusan yang kamu anggap paling efektif, lalu jelaskan kapan tidak cocok. 3. Tambahkan bagian kecil “anti-pattern” (contoh: ad hominem, debat tanpa output, ping-pong chat) dan cara mengoreksinya.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#review-detail-uas-3-my-innovations",
+    "href": "My_Professional_Reviews/index.html#review-detail-uas-3-my-innovations",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.5 Review Detail: UAS-3 My Innovations",
+    "text": "10.5 Review Detail: UAS-3 My Innovations\n\n10.5.1 Judul: Handshake Kit (Inovasi Praktis dari Human Handshake Protocol)\nKesan profesional:\nInovasi kamu jelas: mengubah konsep menjadi paket artefak siap pakai. Komponen-komponennya masuk akal, ringkas, dan saling melengkapi (kickoff, canvas, template opini, re-handshake ticket, mini-rubrik). Ini terasa seperti “produk proses”, bukan ide abstrak.\nKarena rubrik inovasi di kelas bisa bervariasi, review ini memakai kriteria profesional yang fokus pada kebaruan yang terasa, kemudahan implementasi, dan kesiapan adopsi.\n\n10.5.1.1 Skor Rubrik (Inovasi, versi profesional)\n\n\n\n\n\n\n\n\nKriteria\nSkor\nCatatan Profesional\n\n\n\n\nClarity Produk\n5\nKomponen kit jelas, fungsi tiap artefak jelas, dan alur pemakaian realistis.\n\n\nFeasibility\n5\nSangat mungkin dipakai di tim mahasiswa. Beban tambahannya kecil dan bisa dilakukan cepat.\n\n\nDifferentiation\n4\nMirip praktik team charter, tetapi framing “kit” membuatnya lebih mudah dipakai. Perlu pembeda yang lebih eksplisit.\n\n\nMeasurability\n4\nAda mini-rubrik evaluasi, tetapi metriknya bisa dibuat lebih operasional (contoh definisi rework).\n\n\n\nTotal skor UAS-3: 18/20\nKekuatan utama - Inovasi berbentuk artefak, jadi bisa di-copy-paste dan distandardisasi. - Ada mekanisme untuk perubahan scope (re-handshake ticket). - Ada evaluasi sederhana, jadi tidak berhenti di formalitas.\nRekomendasi perbaikan prioritas 1. Tambahkan 1 contoh Handshake Canvas yang terisi (singkat saja). 2. Tambahkan definisi metrik yang lebih tegas: apa itu rework besar, bagaimana menghitung konflik berulang. 3. Tambahkan “perbandingan 3 baris” dengan team charter/RACI: apa yang sama, apa yang kamu sederhanakan.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#review-detail-uas-4-my-knowledge",
+    "href": "My_Professional_Reviews/index.html#review-detail-uas-4-my-knowledge",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.6 Review Detail: UAS-4 My Knowledge",
+    "text": "10.6 Review Detail: UAS-4 My Knowledge\n\n10.6.1 Judul: Pengetahuan untuk Kolaborasi: Dari “Tahu” ke “Bisa Dipakai”\nKesan profesional:\nBab ini menjembatani komunikasi dengan manajemen pengetahuan tim. Kamu tidak mendefinisikan knowledge sebagai “informasi”, tetapi sebagai pemahaman yang bisa dipakai untuk keputusan dan prediksi. Pembagian fakta/prosedur/konteks membantu pembaca membuat peta. Decision log dan knowledge card membuatnya operasional.\n\n10.6.1.1 Skor Rubrik (Knowledge: Clarity, Logic, Validity, Usefulness)\n\n\n\n\n\n\n\n\nKriteria\nSkor\nCatatan Profesional\n\n\n\n\nClarity\n5\nDefinisi dan struktur rapi. Template knowledge card membuat pembaca langsung paham cara pakai.\n\n\nLogic\n5\nAlur informasi -&gt; klaim -&gt; verifikasi -&gt; dokumentasi -&gt; pengetahuan bersama koheren.\n\n\nValidity\n4\nKuat secara praktik, tetapi akan lebih valid jika ada 1 contoh klaim yang salah dan bagaimana sistem ini mencegahnya.\n\n\nUsefulness\n5\nSangat berguna untuk tim: decision log dan verifikasi ringkasan itu high impact.\n\n\n\nTotal skor UAS-4: 19/20\nKekuatan utama - Pengetahuan diperlakukan sebagai aset tim, bukan milik orang tertentu. - Ada mekanisme verifikasi (mutual check) yang menutup celah “merasa sudah paham”. - Template dan artefak sederhana, tidak berat.\nRekomendasi perbaikan prioritas 1. Tambahkan contoh 1 decision log yang terisi (singkat saja). 2. Tambahkan contoh 1 knowledge card yang terisi, lalu tunjukkan “tes kecil” yang dimaksud. 3. Tambahkan bagian “batasan” (misalnya over-documentation, atau saat keputusan harus cepat).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#rekapitulasi-skor",
+    "href": "My_Professional_Reviews/index.html#rekapitulasi-skor",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.7 Rekapitulasi Skor",
+    "text": "10.7 Rekapitulasi Skor\n\n\n\n\n\n\n\n\n\nBagian\nRubrik\nTotal\nCatatan Ringkas\n\n\n\n\nUAS-1 My Concepts\nClarity, Logic, Validity, Usefulness\n19/20\nSangat kuat, butuh contoh kasus untuk mengunci validitas.\n\n\nUAS-2 My Opinions\nCompelling, Informative, Persuasive, Engaging\n16/20\nAkan naik jika ada narasi contoh dan counterargument yang jelas.\n\n\nUAS-3 My Innovations\nClarity Produk, Feasibility, Differentiation, Measurability\n18/20\nKit siap pakai, perlu pembeda eksplisit dan metrik lebih operasional.\n\n\nUAS-4 My Knowledge\nClarity, Logic, Validity, Usefulness\n19/20\nSangat kuat, butuh contoh artefak terisi untuk memperkuat validitas.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#rekomendasi-profesional-3-upgrade-yang-paling-mengangkat-nilai",
+    "href": "My_Professional_Reviews/index.html#rekomendasi-profesional-3-upgrade-yang-paling-mengangkat-nilai",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.8 Rekomendasi Profesional: 3 Upgrade yang Paling Mengangkat Nilai",
+    "text": "10.8 Rekomendasi Profesional: 3 Upgrade yang Paling Mengangkat Nilai\n\nTambahkan contoh artefak terisi (1 halaman total)\n\n1 Handshake Canvas terisi\n1 Decision Log terisi\n1 Knowledge Card terisi\n\nTambahkan 1 mini-studi kasus lintas bab\n\nCeritakan 1 konflik tim nyata, lalu tunjukkan bagaimana UAS-1 (handshake), UAS-2 (opini), UAS-3 (kit), UAS-4 (knowledge) bekerja sebagai satu sistem.\n\nBuat metrik lebih operasional\n\nDefinisikan “rework besar” dan “konflik berulang” dalam kalimat yang bisa dihitung atau diobservasi.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
+  },
+  {
+    "objectID": "My_Professional_Reviews/index.html#penutup",
+    "href": "My_Professional_Reviews/index.html#penutup",
+    "title": "10  UAS-5 My Professional Reviews",
+    "section": "10.9 Penutup",
+    "text": "10.9 Penutup\nSecara profesional, portofolio ini sudah berada di level “bisa dipakai orang lain”, bukan cuma refleksi pribadi. Struktur tulisan rapi, benang merah konsisten, dan ada dorongan kuat ke praktik nyata. Dengan menambah contoh artefak terisi dan studi kasus singkat, kualitasnya akan naik signifikan karena pembaca bisa melihat dampak, bukan hanya memahami ide.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>UAS-5 My Professional Reviews</span>"
+    ]
   }
 ]

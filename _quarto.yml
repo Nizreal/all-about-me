@@ -29,6 +29,7 @@ format:
     theme:
       - cosmo
       - brand
+    mermaid: {}
   pdf:
     documentclass: scrreprt
 

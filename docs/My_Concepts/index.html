@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -70,6 +70,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -96,9 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Nizham Rafa Lazuardi</a> 
     </div>
@@ -155,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-2 My Opinions</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -193,8 +195,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#human-handshake-protocol-tcptls-untuk-kolaborasi" id="toc-human-handshake-protocol-tcptls-untuk-kolaborasi" class="nav-link active" data-scroll-target="#human-handshake-protocol-tcptls-untuk-kolaborasi"><span class="header-section-number">6.1</span> Human Handshake Protocol (TCP/TLS untuk Kolaborasi)</a></li>
+  <li><a href="#upgrade-untuk-skor-a-clarity-logic-validity-usefulness" id="toc-upgrade-untuk-skor-a-clarity-logic-validity-usefulness" class="nav-link" data-scroll-target="#upgrade-untuk-skor-a-clarity-logic-validity-usefulness"><span class="header-section-number">6.2</span> Upgrade untuk Skor A (Clarity, Logic, Validity, Usefulness)</a>
+  <ul class="collapse">
+  <li><a href="#definisi-operasional-biar-parameter-tidak-abstrak" id="toc-definisi-operasional-biar-parameter-tidak-abstrak" class="nav-link" data-scroll-target="#definisi-operasional-biar-parameter-tidak-abstrak"><span class="header-section-number">6.2.1</span> Definisi Operasional (biar “parameter” tidak abstrak)</a></li>
+  <li><a href="#minimum-viable-handshake-versi-30-detik" id="toc-minimum-viable-handshake-versi-30-detik" class="nav-link" data-scroll-target="#minimum-viable-handshake-versi-30-detik"><span class="header-section-number">6.2.2</span> Minimum Viable Handshake (Versi 30 Detik)</a></li>
+  <li><a href="#micro-case-study-untuk-validity" id="toc-micro-case-study-untuk-validity" class="nav-link" data-scroll-target="#micro-case-study-untuk-validity"><span class="header-section-number">6.2.3</span> Micro Case Study (untuk Validity)</a></li>
+  <li><a href="#failure-modes-kapan-konsep-ini-gagal-dan-fix-nya" id="toc-failure-modes-kapan-konsep-ini-gagal-dan-fix-nya" class="nav-link" data-scroll-target="#failure-modes-kapan-konsep-ini-gagal-dan-fix-nya"><span class="header-section-number">6.2.4</span> Failure Modes (kapan konsep ini gagal) dan Fix-nya</a></li>
+  <li><a href="#beban-b-biaya-misalignment" id="toc-beban-b-biaya-misalignment" class="nav-link" data-scroll-target="#beban-b-biaya-misalignment"><span class="header-section-number">6.2.5</span> Beban [B]: Biaya Misalignment</a></li>
+  <li><a href="#daya-k-apa-yang-membuat-alignment-mungkin-terjadi" id="toc-daya-k-apa-yang-membuat-alignment-mungkin-terjadi" class="nav-link" data-scroll-target="#daya-k-apa-yang-membuat-alignment-mungkin-terjadi"><span class="header-section-number">6.2.6</span> Daya [K]: Apa yang Membuat Alignment Mungkin Terjadi</a></li>
+  <li><a href="#mesin-abstrak-fase-fase-handshake" id="toc-mesin-abstrak-fase-fase-handshake" class="nav-link" data-scroll-target="#mesin-abstrak-fase-fase-handshake"><span class="header-section-number">6.2.7</span> Mesin Abstrak: Fase-Fase Handshake</a></li>
+  <li><a href="#kenapa-ini-lebih-nyata-daripada-konsep-yang-terlalu-besar" id="toc-kenapa-ini-lebih-nyata-daripada-konsep-yang-terlalu-besar" class="nav-link" data-scroll-target="#kenapa-ini-lebih-nyata-daripada-konsep-yang-terlalu-besar"><span class="header-section-number">6.2.8</span> Kenapa ini lebih “nyata” daripada konsep yang terlalu besar</a></li>
+  <li><a href="#output-ide-praktis-yang-bisa-dilahirkan-konsep-ini" id="toc-output-ide-praktis-yang-bisa-dilahirkan-konsep-ini" class="nav-link" data-scroll-target="#output-ide-praktis-yang-bisa-dilahirkan-konsep-ini"><span class="header-section-number">6.2.9</span> Output: Ide Praktis yang Bisa Dilahirkan Konsep Ini</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -218,11 +238,224 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Mau hidup epik ? <a href="lifestory.pdf">Write your Life Story</a></p>
-<p>Apa itu berkonsep?</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QVfUlVBO80U?si=yM6q_rwV9rcDBbu7" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="human-handshake-protocol-tcptls-untuk-kolaborasi" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="human-handshake-protocol-tcptls-untuk-kolaborasi"><span class="header-section-number">6.1</span> Human Handshake Protocol (TCP/TLS untuk Kolaborasi)</h2>
+<p>Dalam materi kuliah ini, <strong>konsep</strong> bukan sekadar topik atau slogan. Konsep adalah <strong>logika dari sebuah mesin abstrak</strong>: ia mengumpulkan dan mengarahkan daya <strong>[K]</strong> untuk mengangkat beban atau masalah <strong>[B]</strong>. Konsep yang baik juga menjadi “induk” yang bisa melahirkan banyak ide praktis, dan ide-ide turunan itu mewarisi kualitas dari konsep induknya.</p>
+<p>Konsep saya adalah <strong>Human Handshake Protocol</strong>, yaitu “handshake” terstruktur sebelum kolaborasi dimulai untuk menyamakan parameter, mirip seperti TCP atau TLS menyepakati parameter sebelum pertukaran data yang sesungguhnya.</p>
+<div class="text-center">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[Niat kolaborasi] --&gt; B[Tujuan &amp; definisi sukses]
+  B --&gt; C[Kapabilitas &amp; batasan]
+  C --&gt; D[Peran &amp; hak keputusan]
+  D --&gt; E[Parameter komunikasi]
+  E --&gt; F[Verifikasi: mutual ACK]
+  F --&gt; G[Eksekusi]
+  G --&gt; H{Ada perubahan?}
+  H -- Ya --&gt; C
+  H -- Tidak --&gt; G
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="upgrade-untuk-skor-a-clarity-logic-validity-usefulness" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="upgrade-untuk-skor-a-clarity-logic-validity-usefulness"><span class="header-section-number">6.2</span> Upgrade untuk Skor A (Clarity, Logic, Validity, Usefulness)</h2>
+<p>Bagian ini memperkuat rubrik, terutama <strong>Validity</strong> (contoh nyata, failure mode, batasan jujur) tanpa mengurangi <strong>Clarity</strong> dan <strong>Usefulness</strong>.</p>
+<section id="definisi-operasional-biar-parameter-tidak-abstrak" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="definisi-operasional-biar-parameter-tidak-abstrak"><span class="header-section-number">6.2.1</span> Definisi Operasional (biar “parameter” tidak abstrak)</h3>
+<p>Yang saya maksud <strong>parameter kolaborasi</strong> adalah hal-hal yang bisa diobservasi dan dicek, misalnya:</p>
+<ul>
+<li><strong>Definisi selesai</strong>: deliverable + kriteria diterima (acceptance criteria) + deadline<br>
+Contoh: “Selesai = laporan 6 halaman + slide 10 halaman + demo jalan, deadline Jumat 17.00.”</li>
+<li><strong>Aturan keputusan</strong>: siapa memutuskan saat beda pendapat (voting, PIC, trial)<br>
+Contoh: “Kalau debat &gt; 10 menit, PIC memutuskan.”</li>
+<li><strong>Ekspektasi respons</strong>: batas waktu membalas di kanal utama<br>
+Contoh: “Respons maksimal 12 jam untuk chat penting.”</li>
+</ul>
+<p>Sedangkan <strong>mutual ACK</strong> adalah kondisi ketika setiap pihak bisa merangkum kesepakatan dalam 3–5 kalimat, dan ringkasannya tidak berbeda secara substansi.</p>
+</section>
+<section id="minimum-viable-handshake-versi-30-detik" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="minimum-viable-handshake-versi-30-detik"><span class="header-section-number">6.2.2</span> Minimum Viable Handshake (Versi 30 Detik)</h3>
+<p>Kalau kondisi sangat terburu-buru, handshake minimum saya adalah:</p>
+<ol type="1">
+<li>Goal: “Kita mau ngapain?”</li>
+<li>Done: “Selesai itu output apa + deadline?”</li>
+<li>Owner: “Siapa PIC bagian inti?”</li>
+<li>Channel: “Komunikasi lewat mana?”</li>
+<li>Decision rule: “Kalau beda pendapat, siapa memutuskan?”</li>
+</ol>
+<p>Versi ini menjaga usefulness tetap tinggi karena bisa dipakai kapan pun.</p>
+</section>
+<section id="micro-case-study-untuk-validity" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="micro-case-study-untuk-validity"><span class="header-section-number">6.2.3</span> Micro Case Study (untuk Validity)</h3>
+<p><strong>Kasus:</strong> tugas kelompok, tim 4 orang, deadline 3 hari.</p>
+<p><strong>Sebelum handshake:</strong><br>
+- “Selesai” versi A: asal ada laporan.<br>
+- “Selesai” versi B: harus ada demo dan slide.<br>
+Akibatnya: hari ke-2 terjadi debat panjang, laporan dirombak, integrasi mepet deadline.</p>
+<p><strong>Sesudah handshake (10 menit):</strong><br>
+- Definisi selesai ditulis: “laporan + slide + demo minimal.”<br>
+- PIC integrasi ditetapkan sejak hari pertama.<br>
+- Ritme update disepakati: rekap jam 21.00.<br>
+Hasil observabel: revisi berkurang, keputusan lebih cepat, dan tidak ada debat ulang tentang “selesai itu apa”.</p>
+</section>
+<section id="failure-modes-kapan-konsep-ini-gagal-dan-fix-nya" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="failure-modes-kapan-konsep-ini-gagal-dan-fix-nya"><span class="header-section-number">6.2.4</span> Failure Modes (kapan konsep ini gagal) dan Fix-nya</h3>
+<ol type="1">
+<li><p><strong>Handshake dilakukan, tapi orang cuma “iya” tanpa komit.</strong><br>
+Fix: sebelum ACK, tanyakan “Apakah kamu benar-benar setuju dan sanggup commit?” Jika tidak, revisi scope atau peran.</p></li>
+<li><p><strong>Handshake jadi alat dominasi orang yang paling vokal.</strong><br>
+Fix: lakukan ringkasan bergantian dan wajibkan “concern check” 1 menit per orang sebelum keputusan final.</p></li>
+<li><p><strong>Scope berubah, tapi tim lupa re-handshake.</strong><br>
+Fix: pasang pemicu eksplisit: setiap perubahan scope memicu “re-handshake 2 menit” (tulis perubahan, dampak, dan parameter yang berubah).</p></li>
+</ol>
+</section>
+<section id="beban-b-biaya-misalignment" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="beban-b-biaya-misalignment"><span class="header-section-number">6.2.5</span> Beban [B]: Biaya Misalignment</h3>
+<p>Banyak konflik dalam kerja tim tidak berawal dari niat buruk, tetapi dari <strong>parameter yang tidak pernah dinegosiasikan</strong>, misalnya:</p>
+<ul>
+<li>definisi “selesai” yang berbeda</li>
+<li>kepemilikan tugas dan hak mengambil keputusan yang tidak jelas</li>
+<li>ekspektasi waktu respons yang tidak sama</li>
+<li>batasan tersembunyi (waktu, energi, prioritas)</li>
+<li>scope creep yang belakangan terasa seperti masalah personal</li>
+</ul>
+<p>Beban [B] adalah waktu terbuang, revisi berulang, frustrasi, dan kerusakan relasi akibat misalignment.</p>
+</section>
+<section id="daya-k-apa-yang-membuat-alignment-mungkin-terjadi" class="level3" data-number="6.2.6">
+<h3 data-number="6.2.6" class="anchored" data-anchor-id="daya-k-apa-yang-membuat-alignment-mungkin-terjadi"><span class="header-section-number">6.2.6</span> Daya [K]: Apa yang Membuat Alignment Mungkin Terjadi</h3>
+<p>Protokol ini bergantung pada “daya” [K] yang realistis bisa disediakan orang:</p>
+<ul>
+<li>kejelasan (berani eksplisit)</li>
+<li>mendengar aktif (betul-betul menangkap maksud)</li>
+<li>jujur soal batasan (waktu, kapasitas, prioritas)</li>
+<li>kosakata bersama (definisi, contoh)</li>
+<li>disiplin verifikasi (cek pemahaman sebelum eksekusi)</li>
+</ul>
+</section>
+<section id="mesin-abstrak-fase-fase-handshake" class="level3" data-number="6.2.7">
+<h3 data-number="6.2.7" class="anchored" data-anchor-id="mesin-abstrak-fase-fase-handshake"><span class="header-section-number">6.2.7</span> Mesin Abstrak: Fase-Fase Handshake</h3>
+<p>Ini adalah logika mesin yang mengubah [K] menjadi beban [B] yang terangkat. Desainnya dibuat singkat, bisa diulang, dan bisa diverifikasi.</p>
+<section id="fase-0-niat-untuk-terkoneksi" class="level4" data-number="6.2.7.1">
+<h4 data-number="6.2.7.1" class="anchored" data-anchor-id="fase-0-niat-untuk-terkoneksi"><span class="header-section-number">6.2.7.1</span> Fase 0: Niat untuk Terkoneksi</h4>
+<p>Pastikan kolaborasinya benar-benar serius, bukan sekadar ngobrol.</p>
+<ul>
+<li>“Ini kita komit kerja bareng, atau masih brainstorming santai?”</li>
+</ul>
+</section>
+<section id="fase-1-pemilihan-protokol-tujuan-dan-ukuran-sukses" class="level4" data-number="6.2.7.2">
+<h4 data-number="6.2.7.2" class="anchored" data-anchor-id="fase-1-pemilihan-protokol-tujuan-dan-ukuran-sukses"><span class="header-section-number">6.2.7.2</span> Fase 1: Pemilihan Protokol (Tujuan dan Ukuran Sukses)</h4>
+<p>Sepakati tujuan dan cara mengukur sukses.</p>
+<ul>
+<li>Tujuan: apa yang mau dicapai?</li>
+<li>Kriteria sukses: “selesai” itu seperti apa?</li>
+<li>Non-goals: apa yang tidak akan dikerjakan</li>
+</ul>
+</section>
+<section id="fase-2-tukar-kapabilitas-dan-batasan" class="level4" data-number="6.2.7.3">
+<h4 data-number="6.2.7.3" class="anchored" data-anchor-id="fase-2-tukar-kapabilitas-dan-batasan"><span class="header-section-number">6.2.7.3</span> Fase 2: Tukar Kapabilitas dan Batasan</h4>
+<p>Tukar informasi tentang apa yang realistis bisa diberikan masing-masing pihak.</p>
+<ul>
+<li>ketersediaan waktu dan deadline</li>
+<li>skill dan resource</li>
+<li>risiko dan blocker</li>
+<li>batasan pribadi (prioritas lain)</li>
+</ul>
+</section>
+<section id="fase-3-peran-tanggung-jawab-hak-keputusan" class="level4" data-number="6.2.7.4">
+<h4 data-number="6.2.7.4" class="anchored" data-anchor-id="fase-3-peran-tanggung-jawab-hak-keputusan"><span class="header-section-number">6.2.7.4</span> Fase 3: Peran, Tanggung Jawab, Hak Keputusan</h4>
+<p>Cegah kerja dobel dan deadlock saat beda pendapat.</p>
+<ul>
+<li>siapa pegang bagian apa</li>
+<li>siapa yang memutuskan saat terjadi konflik</li>
+<li>cara eskalasi saat mentok</li>
+</ul>
+</section>
+<section id="fase-4-parameter-komunikasi" class="level4" data-number="6.2.7.5">
+<h4 data-number="6.2.7.5" class="anchored" data-anchor-id="fase-4-parameter-komunikasi"><span class="header-section-number">6.2.7.5</span> Fase 4: Parameter Komunikasi</h4>
+<p>Tentukan aturan kanal komunikasi sebelum masalah muncul.</p>
+<ul>
+<li>kanal (WhatsApp, Discord, Meet)</li>
+<li>ritme (update harian, 2x seminggu, rekap mingguan)</li>
+<li>ekspektasi waktu respons</li>
+<li>format update (bullet list, checklist, rekap singkat)</li>
+</ul>
+</section>
+<section id="fase-5-verifikasi-mutual-ack" class="level4" data-number="6.2.7.6">
+<h4 data-number="6.2.7.6" class="anchored" data-anchor-id="fase-5-verifikasi-mutual-ack"><span class="header-section-number">6.2.7.6</span> Fase 5: Verifikasi (Mutual ACK)</h4>
+<p>Handshake belum selesai sampai dua pihak bisa mengulang kesepakatan dengan benar.</p>
+<ul>
+<li>masing-masing merangkum: “Jadi yang kita sepakati…”</li>
+<li>kalau rangkuman sama: handshake selesai</li>
+<li>kalau beda: negosiasikan bagian yang tidak sinkron</li>
+</ul>
+</section>
+<section id="fase-6-pemicu-re-handshake" class="level4" data-number="6.2.7.7">
+<h4 data-number="6.2.7.7" class="anchored" data-anchor-id="fase-6-pemicu-re-handshake"><span class="header-section-number">6.2.7.7</span> Fase 6: Pemicu Re-handshake</h4>
+<p>Negosiasi ulang parameter saat kondisi berubah.</p>
+<ul>
+<li>scope berubah</li>
+<li>miskom berulang</li>
+<li>komitmen sering tidak terpenuhi</li>
+<li>anggota baru masuk</li>
+<li>konflik yang sama terjadi dua kali</li>
+</ul>
+</section>
+</section>
+<section id="kenapa-ini-lebih-nyata-daripada-konsep-yang-terlalu-besar" class="level3" data-number="6.2.8">
+<h3 data-number="6.2.8" class="anchored" data-anchor-id="kenapa-ini-lebih-nyata-daripada-konsep-yang-terlalu-besar"><span class="header-section-number">6.2.8</span> Kenapa ini lebih “nyata” daripada konsep yang terlalu besar</h3>
+<p>Contoh konsep yang diberikan di materi terasa sangat besar dan idealistik, sehingga susah dipakai untuk kasus sehari-hari. Konsep handshake ini tetap sesuai definisi kuliah karena jelas menyebut [B], menyebut [K] yang realistis, dan punya mesin yang bisa diulang untuk melahirkan ide-ide praktis (template, checklist, ritual meeting).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Human Handshake Checklist (Versi 1 Menit)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Tujuannya apa?<br>
+</li>
+<li>“Selesai” itu seperti apa (deliverable + deadline)?<br>
+</li>
+<li>Batasannya apa?<br>
+</li>
+<li>Siapa pegang apa (PIC)?<br>
+</li>
+<li>Komunikasinya bagaimana (kanal, ritme, waktu respons)?<br>
+</li>
+<li>Kalau beda pendapat, cara mutusinnya gimana (decision rule)?<br>
+</li>
+<li>Rangkuman bersama: “Kita sepakat bahwa…”</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="output-ide-praktis-yang-bisa-dilahirkan-konsep-ini" class="level3" data-number="6.2.9">
+<h3 data-number="6.2.9" class="anchored" data-anchor-id="output-ide-praktis-yang-bisa-dilahirkan-konsep-ini"><span class="header-section-number">6.2.9</span> Output: Ide Praktis yang Bisa Dilahirkan Konsep Ini</h3>
+<p>Karena konsep seharusnya bisa “beranak”, protokol ini dapat menghasilkan:</p>
+<ul>
+<li>skrip kickoff tim</li>
+<li>skrip resolusi konflik (“balik ke parameter yang disepakati”)</li>
+<li>template update mingguan</li>
+<li>template re-handshake saat scope berubah</li>
+<li>rubrik singkat untuk menilai apakah komunikasi berjalan</li>
+</ul>
+<p>Semua ini adalah “anak ide” dari konsep induk.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -632,8 +865,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../My_Opinions/index.html" class="pagination-link" aria-label="UAS-3 My Opinions">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../My_Opinions/index.html" class="pagination-link" aria-label="UAS-2 My Opinions">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-2 My Opinions</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

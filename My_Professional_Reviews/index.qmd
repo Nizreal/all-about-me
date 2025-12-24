@@ -1,2 +1,166 @@
-## UAS-5 My Professional Reviews
-Untuk melAkukan review, seperti pada [pendekatan AI](../My_Personal_Reviews/Doc.5.Mengevaluasi-Esai-Berdasarkan-Rubrik.pdf), kita membutuhkan rubrik
+---
+title: "UAS-5 My Professional Reviews"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+## Identitas Review
+
+**Reviewer:** 18224049 Nizham Rafa Lazuardi  
+**Objek yang direview:** Portofolio UAS II-2100 KIPP (UAS-1 s.d. UAS-4)  
+**Tujuan:** Menilai kualitas artikel secara profesional: jelas, runut, masuk akal, dan bisa dipakai di situasi nyata.  
+**Skala skor:** 1 (Poor) sampai 5 (Excellent)
+
+## Ringkasan Eksekutif
+
+Portofolio ini punya benang merah yang kuat: mengubah komunikasi tim dari “ngobrol” menjadi “protokol yang bisa diulang”. Analogi TCP/TLS membuat ide inti mudah ditangkap, dan setiap bab konsisten menggeser konflik interpersonal menjadi persoalan parameter kerja yang bisa dinegosiasikan.
+
+Secara profesional, kekuatan terbesar ada pada struktur dan orientasi praktis. Area yang paling berpotensi menahan skor tertinggi biasanya bukan karena ide lemah, tetapi karena kurangnya contoh kasus yang spesifik, indikator keberhasilan yang lebih terukur, dan pembandingan singkat dengan praktik umum (misalnya team charter, RACI, kickoff meeting) supaya pembaca yakin ini bukan sekadar “nama baru untuk kebiasaan lama”.
+
+---
+
+## Review Detail: UAS-1 My Concepts
+### Judul: Human Handshake Protocol (TCP/TLS untuk Kolaborasi)
+
+**Kesan profesional:**  
+Konsepnya solid dan mudah dibayangkan. Kamu menyebut beban (misalignment) dengan jelas, menyebut daya yang dibutuhkan (kejelasan, listening, verifikasi), lalu menjadikannya mesin fase yang bisa diulang. Ini memenuhi ekspektasi “konsep sebagai mesin abstrak” dan terasa operasional.
+
+#### Skor Rubrik (Konsep)
+
+| Kriteria | Skor | Catatan Profesional |
+|---|---:|---|
+| Clarity | 5 | Definisi, istilah, dan alur fase mudah diikuti. Checklist 1 menit sangat membantu pembaca. |
+| Logic | 5 | Rantai sebab-akibat jelas: tanpa negosiasi parameter -> rework dan konflik; dengan handshake -> sinkron. |
+| Validity | 4 | Masuk akal dan sesuai realita, tetapi akan lebih kuat jika ada 1 contoh kasus nyata singkat (2 paragraf) atau mini-skenario. |
+| Usefulness | 5 | Sangat bisa dipakai: fase, trigger re-handshake, dan checklist langsung dapat diadopsi tim. |
+
+**Total skor UAS-1:** **19/20**
+
+**Kekuatan utama**
+- “Mesin”-nya jelas: fase 0 sampai 6 membuat konsep tidak abstrak.
+- Checklist mengubah ide menjadi tindakan cepat.
+- Ada trigger re-handshake, ini menambah kedewasaan konsep.
+
+**Rekomendasi perbaikan prioritas (untuk skor paling tinggi)**
+1. Tambahkan 1 studi kasus mini: tugas kelompok, game jam, atau organisasi. Tunjukkan sebelum vs sesudah handshake.
+2. Tambahkan 1 indikator sederhana untuk “misalignment menurun” (misalnya jumlah revisi besar, atau frekuensi debat topik yang sama).
+3. Tambahkan 1 paragraf “apa bedanya dengan kickoff meeting biasa” supaya novelty konsep lebih terlihat.
+
+---
+
+## Review Detail: UAS-2 My Opinions
+### Topik: Menangani Perbedaan Pendapat agar Jadi Keputusan Kerja
+
+**Kesan profesional:**  
+Opini kamu punya posisi yang jelas: tujuan diskusi bukan menang, tetapi menghasilkan keputusan kerja yang sehat. Kamu juga menormalisasi perbedaan opini sebagai campuran informasi, nilai, perasaan, dan pengalaman, lalu memberi protokol 5 menit dan template opini yang aman. Ini membuat bab opini terasa actionable, bukan sekadar nasihat.
+
+#### Skor Rubrik (Opini)
+
+| Kriteria | Skor | Catatan Profesional |
+|---|---:|---|
+| Compelling | 4 | Pembuka jelas dan relevan, tetapi bisa lebih “menggigit” jika dimulai dengan contoh konflik singkat yang relatable. |
+| Informative | 4 | Struktur dan isi cukup kaya, namun bisa ditambah 1–2 contoh kalimat nyata saat konflik terjadi. |
+| Persuasive | 4 | Argumen kuat dan konsisten, tetapi akan lebih meyakinkan jika ada counterargument dan responsnya. |
+| Engaging | 4 | Flow enak dibaca, template membantu, namun narasi contoh akan membuatnya lebih hidup. |
+
+**Total skor UAS-2:** **16/20**
+
+**Kekuatan utama**
+- Dua aturan pribadi (sinyal opini vs aturan tim, hindari ekstrem) itu praktis.
+- Protokol 5 menit memberi jalan keluar dari debat yang muter.
+- Template opini sangat bisa dipakai tim tanpa banyak adaptasi.
+
+**Rekomendasi perbaikan prioritas**
+1. Tambahkan 1 contoh situasi “A vs B” yang kamu tulis sebagai dialog 6–8 baris.
+2. Tambahkan 1 mekanisme keputusan yang kamu anggap paling efektif, lalu jelaskan kapan tidak cocok.
+3. Tambahkan bagian kecil “anti-pattern” (contoh: ad hominem, debat tanpa output, ping-pong chat) dan cara mengoreksinya.
+
+---
+
+## Review Detail: UAS-3 My Innovations
+### Judul: Handshake Kit (Inovasi Praktis dari Human Handshake Protocol)
+
+**Kesan profesional:**  
+Inovasi kamu jelas: mengubah konsep menjadi paket artefak siap pakai. Komponen-komponennya masuk akal, ringkas, dan saling melengkapi (kickoff, canvas, template opini, re-handshake ticket, mini-rubrik). Ini terasa seperti “produk proses”, bukan ide abstrak.
+
+Karena rubrik inovasi di kelas bisa bervariasi, review ini memakai kriteria profesional yang fokus pada kebaruan yang terasa, kemudahan implementasi, dan kesiapan adopsi.
+
+#### Skor Rubrik (Inovasi, versi profesional)
+
+| Kriteria | Skor | Catatan Profesional |
+|---|---:|---|
+| Clarity Produk | 5 | Komponen kit jelas, fungsi tiap artefak jelas, dan alur pemakaian realistis. |
+| Feasibility | 5 | Sangat mungkin dipakai di tim mahasiswa. Beban tambahannya kecil dan bisa dilakukan cepat. |
+| Differentiation | 4 | Mirip praktik team charter, tetapi framing “kit” membuatnya lebih mudah dipakai. Perlu pembeda yang lebih eksplisit. |
+| Measurability | 4 | Ada mini-rubrik evaluasi, tetapi metriknya bisa dibuat lebih operasional (contoh definisi rework). |
+
+**Total skor UAS-3:** **18/20**
+
+**Kekuatan utama**
+- Inovasi berbentuk artefak, jadi bisa di-copy-paste dan distandardisasi.
+- Ada mekanisme untuk perubahan scope (re-handshake ticket).
+- Ada evaluasi sederhana, jadi tidak berhenti di formalitas.
+
+**Rekomendasi perbaikan prioritas**
+1. Tambahkan 1 contoh Handshake Canvas yang terisi (singkat saja).
+2. Tambahkan definisi metrik yang lebih tegas: apa itu rework besar, bagaimana menghitung konflik berulang.
+3. Tambahkan “perbandingan 3 baris” dengan team charter/RACI: apa yang sama, apa yang kamu sederhanakan.
+
+---
+
+## Review Detail: UAS-4 My Knowledge
+### Judul: Pengetahuan untuk Kolaborasi: Dari “Tahu” ke “Bisa Dipakai”
+
+**Kesan profesional:**  
+Bab ini menjembatani komunikasi dengan manajemen pengetahuan tim. Kamu tidak mendefinisikan knowledge sebagai “informasi”, tetapi sebagai pemahaman yang bisa dipakai untuk keputusan dan prediksi. Pembagian fakta/prosedur/konteks membantu pembaca membuat peta. Decision log dan knowledge card membuatnya operasional.
+
+#### Skor Rubrik (Knowledge: Clarity, Logic, Validity, Usefulness)
+
+| Kriteria | Skor | Catatan Profesional |
+|---|---:|---|
+| Clarity | 5 | Definisi dan struktur rapi. Template knowledge card membuat pembaca langsung paham cara pakai. |
+| Logic | 5 | Alur informasi -> klaim -> verifikasi -> dokumentasi -> pengetahuan bersama koheren. |
+| Validity | 4 | Kuat secara praktik, tetapi akan lebih valid jika ada 1 contoh klaim yang salah dan bagaimana sistem ini mencegahnya. |
+| Usefulness | 5 | Sangat berguna untuk tim: decision log dan verifikasi ringkasan itu high impact. |
+
+**Total skor UAS-4:** **19/20**
+
+**Kekuatan utama**
+- Pengetahuan diperlakukan sebagai aset tim, bukan milik orang tertentu.
+- Ada mekanisme verifikasi (mutual check) yang menutup celah “merasa sudah paham”.
+- Template dan artefak sederhana, tidak berat.
+
+**Rekomendasi perbaikan prioritas**
+1. Tambahkan contoh 1 decision log yang terisi (singkat saja).
+2. Tambahkan contoh 1 knowledge card yang terisi, lalu tunjukkan “tes kecil” yang dimaksud.
+3. Tambahkan bagian “batasan” (misalnya over-documentation, atau saat keputusan harus cepat).
+
+---
+
+## Rekapitulasi Skor
+
+| Bagian | Rubrik | Total | Catatan Ringkas |
+|---|---|---:|---|
+| UAS-1 My Concepts | Clarity, Logic, Validity, Usefulness | 19/20 | Sangat kuat, butuh contoh kasus untuk mengunci validitas. |
+| UAS-2 My Opinions | Compelling, Informative, Persuasive, Engaging | 16/20 | Akan naik jika ada narasi contoh dan counterargument yang jelas. |
+| UAS-3 My Innovations | Clarity Produk, Feasibility, Differentiation, Measurability | 18/20 | Kit siap pakai, perlu pembeda eksplisit dan metrik lebih operasional. |
+| UAS-4 My Knowledge | Clarity, Logic, Validity, Usefulness | 19/20 | Sangat kuat, butuh contoh artefak terisi untuk memperkuat validitas. |
+
+## Rekomendasi Profesional: 3 Upgrade yang Paling Mengangkat Nilai
+
+1. **Tambahkan contoh artefak terisi (1 halaman total)**
+   - 1 Handshake Canvas terisi
+   - 1 Decision Log terisi
+   - 1 Knowledge Card terisi
+
+2. **Tambahkan 1 mini-studi kasus lintas bab**
+   - Ceritakan 1 konflik tim nyata, lalu tunjukkan bagaimana UAS-1 (handshake), UAS-2 (opini), UAS-3 (kit), UAS-4 (knowledge) bekerja sebagai satu sistem.
+
+3. **Buat metrik lebih operasional**
+   - Definisikan “rework besar” dan “konflik berulang” dalam kalimat yang bisa dihitung atau diobservasi.
+
+## Penutup
+
+Secara profesional, portofolio ini sudah berada di level “bisa dipakai orang lain”, bukan cuma refleksi pribadi. Struktur tulisan rapi, benang merah konsisten, dan ada dorongan kuat ke praktik nyata. Dengan menambah contoh artefak terisi dan studi kasus singkat, kualitasnya akan naik signifikan karena pembaca bisa melihat dampak, bukan hanya memahami ide.

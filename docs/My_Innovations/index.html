@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -70,6 +70,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -96,9 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Nizham Rafa Lazuardi</a> 
     </div>
@@ -155,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-2 My Opinions</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -193,8 +195,36 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#handshake-kit-inovasi-praktis-dari-human-handshake-protocol" id="toc-handshake-kit-inovasi-praktis-dari-human-handshake-protocol" class="nav-link active" data-scroll-target="#handshake-kit-inovasi-praktis-dari-human-handshake-protocol"><span class="header-section-number">8.1</span> Handshake Kit: Inovasi Praktis dari Human Handshake Protocol</a>
+  <ul class="collapse">
+  <li><a href="#apa-yang-membuat-ini-benar-benar-inovasi-bukan-sekadar-saran-komunikasi" id="toc-apa-yang-membuat-ini-benar-benar-inovasi-bukan-sekadar-saran-komunikasi" class="nav-link" data-scroll-target="#apa-yang-membuat-ini-benar-benar-inovasi-bukan-sekadar-saran-komunikasi"><span class="header-section-number">8.1.1</span> Apa yang membuat ini benar-benar “inovasi” (bukan sekadar saran komunikasi)</a></li>
+  <li><a href="#paket-adopsi-biar-gampang-dipakai-tim" id="toc-paket-adopsi-biar-gampang-dipakai-tim" class="nav-link" data-scroll-target="#paket-adopsi-biar-gampang-dipakai-tim"><span class="header-section-number">8.1.2</span> Paket adopsi (biar gampang dipakai tim)</a></li>
+  <li><a href="#metrik-mini-biar-terukur-dan-menaikkan-value-validity" id="toc-metrik-mini-biar-terukur-dan-menaikkan-value-validity" class="nav-link" data-scroll-target="#metrik-mini-biar-terukur-dan-menaikkan-value-validity"><span class="header-section-number">8.1.3</span> Metrik mini (biar terukur dan menaikkan Value + Validity)</a></li>
+  <li><a href="#failure-modes-inovasi-biar-realistis-dan-siap-dipakai" id="toc-failure-modes-inovasi-biar-realistis-dan-siap-dipakai" class="nav-link" data-scroll-target="#failure-modes-inovasi-biar-realistis-dan-siap-dipakai"><span class="header-section-number">8.1.4</span> Failure modes inovasi (biar realistis dan siap dipakai)</a></li>
+  </ul></li>
+  <li><a href="#masalah-yang-saya-targetkan" id="toc-masalah-yang-saya-targetkan" class="nav-link" data-scroll-target="#masalah-yang-saya-targetkan"><span class="header-section-number">8.2</span> Masalah yang Saya Targetkan</a></li>
+  <li><a href="#ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk" id="toc-ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk" class="nav-link" data-scroll-target="#ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk"><span class="header-section-number">8.3</span> Ide Inovasi: Mengubah Handshake dari “Obrolan” menjadi “Produk”</a></li>
+  <li><a href="#komponen-handshake-kit" id="toc-komponen-handshake-kit" class="nav-link" data-scroll-target="#komponen-handshake-kit"><span class="header-section-number">8.4</span> Komponen Handshake Kit</a>
+  <ul class="collapse">
+  <li><a href="#kickoff-script-2-sampai-5-menit" id="toc-kickoff-script-2-sampai-5-menit" class="nav-link" data-scroll-target="#kickoff-script-2-sampai-5-menit"><span class="header-section-number">8.4.1</span> 1) Kickoff Script (2 sampai 5 menit)</a></li>
+  <li><a href="#handshake-canvas-1-halaman" id="toc-handshake-canvas-1-halaman" class="nav-link" data-scroll-target="#handshake-canvas-1-halaman"><span class="header-section-number">8.4.2</span> 2) Handshake Canvas (1 halaman)</a></li>
+  <li><a href="#opinion-to-decision-template-untuk-uas-2-ke-praktik" id="toc-opinion-to-decision-template-untuk-uas-2-ke-praktik" class="nav-link" data-scroll-target="#opinion-to-decision-template-untuk-uas-2-ke-praktik"><span class="header-section-number">8.4.3</span> 3) Opinion-to-Decision Template (untuk UAS-2 ke praktik)</a></li>
+  <li><a href="#re-handshake-ticket-untuk-perubahan-scope" id="toc-re-handshake-ticket-untuk-perubahan-scope" class="nav-link" data-scroll-target="#re-handshake-ticket-untuk-perubahan-scope"><span class="header-section-number">8.4.4</span> 4) Re-handshake Ticket (untuk perubahan scope)</a></li>
+  <li><a href="#mini-rubrik-evaluasi-biar-terukur" id="toc-mini-rubrik-evaluasi-biar-terukur" class="nav-link" data-scroll-target="#mini-rubrik-evaluasi-biar-terukur"><span class="header-section-number">8.4.5</span> 5) Mini-Rubrik Evaluasi (biar terukur)</a></li>
+  </ul></li>
+  <li><a href="#cara-pakai-di-situasi-nyata" id="toc-cara-pakai-di-situasi-nyata" class="nav-link" data-scroll-target="#cara-pakai-di-situasi-nyata"><span class="header-section-number">8.5</span> Cara Pakai di Situasi Nyata</a>
+  <ul class="collapse">
+  <li><a href="#skenario-tugas-kelompok" id="toc-skenario-tugas-kelompok" class="nav-link" data-scroll-target="#skenario-tugas-kelompok"><span class="header-section-number">8.5.1</span> Skenario: Tugas kelompok</a></li>
+  </ul></li>
+  <li><a href="#validitas-dan-batasan-inovasi" id="toc-validitas-dan-batasan-inovasi" class="nav-link" data-scroll-target="#validitas-dan-batasan-inovasi"><span class="header-section-number">8.6</span> Validitas dan Batasan Inovasi</a></li>
+  <li><a href="#output-praktis-yang-saya-hasilkan" id="toc-output-praktis-yang-saya-hasilkan" class="nav-link" data-scroll-target="#output-praktis-yang-saya-hasilkan"><span class="header-section-number">8.7</span> Output Praktis yang Saya Hasilkan</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -218,8 +248,201 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="handshake-kit-inovasi-praktis-dari-human-handshake-protocol" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="handshake-kit-inovasi-praktis-dari-human-handshake-protocol"><span class="header-section-number">8.1</span> Handshake Kit: Inovasi Praktis dari Human Handshake Protocol</h2>
+<p><strong>Inovasi utama saya</strong> adalah membuat <strong>Handshake Kit</strong>, yaitu seperangkat alat yang bisa langsung dipakai untuk menjalankan konsep <strong>Human Handshake Protocol (TCP/TLS untuk kolaborasi)</strong> secara konsisten. Kalau konsep saya di UAS-1 adalah “mesin abstrak” yang mengurangi misalignment, maka inovasi ini adalah “implementasi lapangan” supaya handshake tidak cuma jadi ide, tetapi jadi kebiasaan tim.</p>
+<p>Tujuan inovasi ini sederhana: membuat proses menyamakan parameter kerja jadi <strong>cepat, ringan, dan terukur</strong>, sehingga konflik yang muncul tidak lagi kabur dan personal, tetapi bisa ditangani sebagai perbedaan parameter.</p>
+<div class="text-center">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">  flowchart TD
+    A[Masalah: Misalignment] --&gt; B[Konsep: Human Handshake Protocol]
+    B --&gt; C[Handshake Kit]
+    C --&gt; D1[Kickoff Script]
+    C --&gt; D2[Handshake Canvas]
+    C --&gt; D3[Opinion-to-Decision Template]
+    C --&gt; D4[Re-handshake Ticket]
+    C --&gt; D5[Mini-Rubrik Evaluasi]
+    D1 --&gt; E[Output: parameter jelas]
+    D2 --&gt; E
+    D3 --&gt; F[Output: debat jadi keputusan]
+    D4 --&gt; G[Output: scope change terkendali]
+    D5 --&gt; H[Output: bisa diukur]
+    E --&gt; I[Hasil: rework turun, konflik berulang berkurang]
+    F --&gt; I
+    G --&gt; I
+    H --&gt; I
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<section id="apa-yang-membuat-ini-benar-benar-inovasi-bukan-sekadar-saran-komunikasi" class="level3" data-number="8.1.1">
+<h3 data-number="8.1.1" class="anchored" data-anchor-id="apa-yang-membuat-ini-benar-benar-inovasi-bukan-sekadar-saran-komunikasi"><span class="header-section-number">8.1.1</span> Apa yang membuat ini benar-benar “inovasi” (bukan sekadar saran komunikasi)</h3>
+<p>Handshake Kit berbeda dari nasihat umum “komunikasi yang baik” karena:</p>
+<ul>
+<li>punya <strong>fase handshake</strong> yang jelas (bukan ngobrol bebas)</li>
+<li>wajib ada <strong>mutual ACK</strong> (verifikasi pemahaman)</li>
+<li>ada <strong>re-handshake triggers</strong> (kapan harus negosiasi ulang)</li>
+<li>menghasilkan <strong>artefak</strong> (canvas, ticket, template), bukan cuma diskusi</li>
+</ul>
+<p>Dengan kata lain, kit ini mengubah “obrolan” menjadi “protokol + dokumen”.</p>
+</section>
+<section id="paket-adopsi-biar-gampang-dipakai-tim" class="level3" data-number="8.1.2">
+<h3 data-number="8.1.2" class="anchored" data-anchor-id="paket-adopsi-biar-gampang-dipakai-tim"><span class="header-section-number">8.1.2</span> Paket adopsi (biar gampang dipakai tim)</h3>
+<p>Agar Adoption naik, saya menyiapkan cara pakai yang “plug and play”.</p>
+<p><strong>Hari 1 (Kickoff 10 menit):</strong> 1. Jalankan Kickoff Script 5 menit. 2. Isi Handshake Canvas 1 halaman. 3. Simpan Canvas di tempat yang semua orang pasti lihat (pinned message atau dokumen utama).</p>
+<p><strong>Setiap hari / setiap sesi kerja (2 menit):</strong> - Update singkat: “done, next, blocker”.</p>
+<p><strong>Setiap ada perubahan scope (2 menit):</strong> - Buat Re-handshake Ticket.</p>
+<p><strong>Akhir minggu (5 menit):</strong> - Cek Mini-Rubrik Evaluasi dan putuskan apakah perlu re-handshake.</p>
+</section>
+<section id="metrik-mini-biar-terukur-dan-menaikkan-value-validity" class="level3" data-number="8.1.3">
+<h3 data-number="8.1.3" class="anchored" data-anchor-id="metrik-mini-biar-terukur-dan-menaikkan-value-validity"><span class="header-section-number">8.1.3</span> Metrik mini (biar terukur dan menaikkan Value + Validity)</h3>
+<p>Saya memilih metrik yang gampang dihitung tanpa tool khusus:</p>
+<ol type="1">
+<li><strong>Rework count</strong>: berapa kali revisi karena “salah paham requirement” (bukan karena kualitas).</li>
+<li><strong>Time-to-decision</strong>: berapa menit diskusi sampai keputusan final (khusus isu yang sebelumnya sering muter).</li>
+<li><strong>Repeated-conflict count</strong>: berapa kali topik konflik yang sama muncul dalam satu minggu.</li>
+<li><strong>Alignment check</strong>: semua anggota bisa menyebut definisi “selesai” yang sama (ya/tidak).</li>
+</ol>
+<p>Kalau angka-angka ini membaik, berarti kit benar-benar bekerja. Kalau memburuk, berarti handshake kurang lengkap atau scope sudah berubah tapi belum re-handshake.</p>
+</section>
+<section id="failure-modes-inovasi-biar-realistis-dan-siap-dipakai" class="level3" data-number="8.1.4">
+<h3 data-number="8.1.4" class="anchored" data-anchor-id="failure-modes-inovasi-biar-realistis-dan-siap-dipakai"><span class="header-section-number">8.1.4</span> Failure modes inovasi (biar realistis dan siap dipakai)</h3>
+<ol type="1">
+<li><p><strong>Orang malas mengisi karena terasa “ribet”.</strong><br>
+Solusi: pakai versi 60 detik dulu, lalu naikkan kedalaman hanya kalau proyeknya besar.</p></li>
+<li><p><strong>Canvas ada, tapi tidak pernah dibuka lagi.</strong><br>
+Solusi: jadikan Canvas sebagai “single source of truth”; setiap keputusan baru harus mengacu ke Canvas atau update Canvas.</p></li>
+<li><p><strong>Satu orang dominan memaksakan parameter.</strong><br>
+Solusi: sebelum final ACK, wajib ada “concern check” singkat: setiap orang menyebut 1 risiko atau keberatan.</p></li>
+<li><p><strong>Re-handshake lupa dilakukan saat scope berubah.</strong><br>
+Solusi: trigger eksplisit: setiap perubahan requirement harus menghasilkan Ticket, walau cuma 3 baris.</p></li>
+</ol>
+</section>
+</section>
+<section id="masalah-yang-saya-targetkan" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="masalah-yang-saya-targetkan"><span class="header-section-number">8.2</span> Masalah yang Saya Targetkan</h2>
+<p>Dalam kerja tim, miskom sering bukan karena orang tidak peduli, tetapi karena:</p>
+<ul>
+<li>definisi “selesai” beda</li>
+<li>peran dan hak keputusan tidak jelas</li>
+<li>ekspektasi respons dan ritme kerja berbeda</li>
+<li>scope berubah tanpa re-handshake</li>
+</ul>
+<p>Masalahnya bukan kurang ngobrol, tetapi ngobrol tanpa struktur.</p>
+</section>
+<section id="ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="ide-inovasi-mengubah-handshake-dari-obrolan-menjadi-produk"><span class="header-section-number">8.3</span> Ide Inovasi: Mengubah Handshake dari “Obrolan” menjadi “Produk”</h2>
+<p>Handshake Kit adalah inovasi karena ia:</p>
+<ol type="1">
+<li>Mengubah handshake menjadi <strong>artefak</strong> yang bisa disalin, dipakai ulang, dan dievaluasi.</li>
+<li>Mengurangi ketergantungan pada “chemistry tim”.</li>
+<li>Membuat misalignment terlihat cepat lewat format yang sama untuk semua orang.</li>
+</ol>
+<p>Dengan kata lain, kit ini memaksa tim menyepakati parameter seperti protokol jaringan: jelas, eksplisit, ada ACK, dan ada aturan re-handshake.</p>
+</section>
+<section id="komponen-handshake-kit" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="komponen-handshake-kit"><span class="header-section-number">8.4</span> Komponen Handshake Kit</h2>
+<section id="kickoff-script-2-sampai-5-menit" class="level3" data-number="8.4.1">
+<h3 data-number="8.4.1" class="anchored" data-anchor-id="kickoff-script-2-sampai-5-menit"><span class="header-section-number">8.4.1</span> 1) Kickoff Script (2 sampai 5 menit)</h3>
+<p>Skrip singkat untuk memulai kolaborasi tanpa terasa kaku.</p>
+<p><strong>Versi ringkas:</strong> - Tujuan kita apa? - Output finalnya apa? - Deadline dan batasan apa? - Siapa pegang apa? - Komunikasi lewat apa dan seberapa sering? - Kalau beda pendapat, siapa yang memutuskan?</p>
+<p>Skrip ini membuat handshake tidak tergantung orang yang “paling cerewet”.</p>
+</section>
+<section id="handshake-canvas-1-halaman" class="level3" data-number="8.4.2">
+<h3 data-number="8.4.2" class="anchored" data-anchor-id="handshake-canvas-1-halaman"><span class="header-section-number">8.4.2</span> 2) Handshake Canvas (1 halaman)</h3>
+<p>Canvas adalah ringkasan kesepakatan tim yang ditulis sekali, lalu jadi rujukan saat konflik.</p>
+<p>Isi canvas: - Goal - Done Definition - Roles (PIC per bagian) - Decision Rule - Communication (channel, cadence, response time) - Re-handshake Triggers</p>
+<p>Kalau ada konflik, tim cukup kembali ke canvas dan cek bagian mana yang tidak sinkron.</p>
+</section>
+<section id="opinion-to-decision-template-untuk-uas-2-ke-praktik" class="level3" data-number="8.4.3">
+<h3 data-number="8.4.3" class="anchored" data-anchor-id="opinion-to-decision-template-untuk-uas-2-ke-praktik"><span class="header-section-number">8.4.3</span> 3) Opinion-to-Decision Template (untuk UAS-2 ke praktik)</h3>
+<p>Template untuk menyampaikan opini dengan aman, lalu mengubahnya jadi keputusan.</p>
+<p>Format: - Sinyal: opini personal atau usulan aturan tim - Dasar: informasi, nilai, pengalaman - Hal yang bisa mengubah opini - Usulan keputusan (1 kalimat)</p>
+<p>Ini membuat diskusi tidak muter di “rasa tersinggung”, tetapi bergerak ke “keputusan”.</p>
+</section>
+<section id="re-handshake-ticket-untuk-perubahan-scope" class="level3" data-number="8.4.4">
+<h3 data-number="8.4.4" class="anchored" data-anchor-id="re-handshake-ticket-untuk-perubahan-scope"><span class="header-section-number">8.4.4</span> 4) Re-handshake Ticket (untuk perubahan scope)</h3>
+<p>Bentuknya seperti “ticket” atau “issue” kecil yang dipakai saat scope berubah.</p>
+<p>Isi ticket: - Apa yang berubah? - Dampaknya ke waktu, kualitas, peran - Parameter apa yang perlu disepakati ulang - Tanggal mulai berlaku</p>
+<p>Ini menghindari scope creep diam-diam.</p>
+</section>
+<section id="mini-rubrik-evaluasi-biar-terukur" class="level3" data-number="8.4.5">
+<h3 data-number="8.4.5" class="anchored" data-anchor-id="mini-rubrik-evaluasi-biar-terukur"><span class="header-section-number">8.4.5</span> 5) Mini-Rubrik Evaluasi (biar terukur)</h3>
+<p>Supaya kit ini tidak sekadar formalitas, saya pakai indikator sederhana:</p>
+<ul>
+<li>Rework turun atau tidak?</li>
+<li>Konflik berulang tentang topik yang sama masih terjadi atau tidak?</li>
+<li>Apakah semua orang bisa menyebut “definisi selesai” yang sama?</li>
+<li>Apakah keputusan lebih cepat tercapai?</li>
+</ul>
+<p>Kalau indikator memburuk, berarti handshake kurang lengkap atau butuh re-handshake.</p>
+</section>
+</section>
+<section id="cara-pakai-di-situasi-nyata" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="cara-pakai-di-situasi-nyata"><span class="header-section-number">8.5</span> Cara Pakai di Situasi Nyata</h2>
+<section id="skenario-tugas-kelompok" class="level3" data-number="8.5.1">
+<h3 data-number="8.5.1" class="anchored" data-anchor-id="skenario-tugas-kelompok"><span class="header-section-number">8.5.1</span> Skenario: Tugas kelompok</h3>
+<ol type="1">
+<li>Pakai Kickoff Script 5 menit.</li>
+<li>Isi Handshake Canvas 1 halaman.</li>
+<li>Saat debat, pakai Opinion-to-Decision Template.</li>
+<li>Saat scope berubah, buat Re-handshake Ticket 2 menit.</li>
+<li>Akhir minggu, cek Mini-Rubrik Evaluasi.</li>
+</ol>
+<p>Dengan alur ini, tim tidak menunggu konflik besar untuk “baru ngomong”.</p>
+</section>
+</section>
+<section id="validitas-dan-batasan-inovasi" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="validitas-dan-batasan-inovasi"><span class="header-section-number">8.6</span> Validitas dan Batasan Inovasi</h2>
+<p><strong>Kenapa masuk akal:</strong> - Kit ini tidak menciptakan kerja baru, hanya memindahkan kerja yang biasanya muncul sebagai konflik menjadi kerja awal yang lebih murah. - Sama seperti TCP/TLS, negosiasi parameter di depan membuat “transfer data” berikutnya lebih stabil.</p>
+<p><strong>Batasan:</strong> - Kalau ada anggota yang memang berniat tidak kooperatif, kit ini tidak otomatis menyelesaikan masalah karakter. - Kalau relasi sudah rusak parah, butuh mediasi lebih dalam. Kit ini tetap membantu struktur, tetapi tidak menggantikan perbaikan relasi.</p>
+</section>
+<section id="output-praktis-yang-saya-hasilkan" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="output-praktis-yang-saya-hasilkan"><span class="header-section-number">8.7</span> Output Praktis yang Saya Hasilkan</h2>
+<p>Handshake Kit menghasilkan artefak yang bisa langsung dipakai ulang:</p>
+<ul>
+<li>Kickoff Script (copy-paste)</li>
+<li>Handshake Canvas (1 halaman)</li>
+<li>Opinion-to-Decision Template</li>
+<li>Re-handshake Ticket</li>
+<li>Mini-Rubrik Evaluasi</li>
+</ul>
+<p>Ini adalah inovasi yang saya pilih karena paling dekat dengan kebutuhan sehari-hari, mudah diuji, dan mudah dibawa ke berbagai konteks: tugas kuliah, organisasi, game jam, sampai kerja profesional.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Handshake Kit (Versi 60 Detik)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Goal dan definisi selesai<br>
+</li>
+<li>Batasan dan risiko<br>
+</li>
+<li>Peran dan hak keputusan<br>
+</li>
+<li>Kanal, ritme, ekspektasi respons<br>
+</li>
+<li>Mutual ACK: “Kita sepakat bahwa…”<br>
+</li>
+<li>Re-handshake jika scope berubah atau konflik berulang</li>
+</ol>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -624,8 +847,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../My_Opinions/index.html" class="pagination-link" aria-label="UAS-3 My Opinions">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span>
+      <a href="../My_Opinions/index.html" class="pagination-link" aria-label="UAS-2 My Opinions">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-2 My Opinions</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

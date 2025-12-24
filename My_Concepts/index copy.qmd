@@ -26,61 +26,6 @@ flowchart TD
   H -- Tidak --> G
 ```
 :::
-## Upgrade untuk Skor A (Clarity, Logic, Validity, Usefulness)
-
-Bagian ini memperkuat rubrik, terutama **Validity** (contoh nyata, failure mode, batasan jujur) tanpa mengurangi **Clarity** dan **Usefulness**.
-
-### Definisi Operasional (biar “parameter” tidak abstrak)
-
-Yang saya maksud **parameter kolaborasi** adalah hal-hal yang bisa diobservasi dan dicek, misalnya:
-
-- **Definisi selesai**: deliverable + kriteria diterima (acceptance criteria) + deadline  
-  Contoh: “Selesai = laporan 6 halaman + slide 10 halaman + demo jalan, deadline Jumat 17.00.”
-- **Aturan keputusan**: siapa memutuskan saat beda pendapat (voting, PIC, trial)  
-  Contoh: “Kalau debat > 10 menit, PIC memutuskan.”
-- **Ekspektasi respons**: batas waktu membalas di kanal utama  
-  Contoh: “Respons maksimal 12 jam untuk chat penting.”
-
-Sedangkan **mutual ACK** adalah kondisi ketika setiap pihak bisa merangkum kesepakatan dalam 3–5 kalimat, dan ringkasannya tidak berbeda secara substansi.
-
-### Minimum Viable Handshake (Versi 30 Detik)
-
-Kalau kondisi sangat terburu-buru, handshake minimum saya adalah:
-
-1. Goal: “Kita mau ngapain?”
-2. Done: “Selesai itu output apa + deadline?”
-3. Owner: “Siapa PIC bagian inti?”
-4. Channel: “Komunikasi lewat mana?”
-5. Decision rule: “Kalau beda pendapat, siapa memutuskan?”
-
-Versi ini menjaga usefulness tetap tinggi karena bisa dipakai kapan pun.
-
-### Micro Case Study (untuk Validity)
-
-**Kasus:** tugas kelompok, tim 4 orang, deadline 3 hari.
-
-**Sebelum handshake:**  
-- “Selesai” versi A: asal ada laporan.  
-- “Selesai” versi B: harus ada demo dan slide.  
-Akibatnya: hari ke-2 terjadi debat panjang, laporan dirombak, integrasi mepet deadline.
-
-**Sesudah handshake (10 menit):**  
-- Definisi selesai ditulis: “laporan + slide + demo minimal.”  
-- PIC integrasi ditetapkan sejak hari pertama.  
-- Ritme update disepakati: rekap jam 21.00.  
-Hasil observabel: revisi berkurang, keputusan lebih cepat, dan tidak ada debat ulang tentang “selesai itu apa”.
-
-### Failure Modes (kapan konsep ini gagal) dan Fix-nya
-
-1) **Handshake dilakukan, tapi orang cuma “iya” tanpa komit.**  
-Fix: sebelum ACK, tanyakan “Apakah kamu benar-benar setuju dan sanggup commit?” Jika tidak, revisi scope atau peran.
-
-2) **Handshake jadi alat dominasi orang yang paling vokal.**  
-Fix: lakukan ringkasan bergantian dan wajibkan “concern check” 1 menit per orang sebelum keputusan final.
-
-3) **Scope berubah, tapi tim lupa re-handshake.**  
-Fix: pasang pemicu eksplisit: setiap perubahan scope memicu “re-handshake 2 menit” (tulis perubahan, dampak, dan parameter yang berubah).
-
 ### Beban [B]: Biaya Misalignment
 
 Banyak konflik dalam kerja tim tidak berawal dari niat buruk, tetapi dari **parameter yang tidak pernah dinegosiasikan**, misalnya:
@@ -173,11 +118,11 @@ Contoh konsep yang diberikan di materi terasa sangat besar dan idealistik, sehin
 ## Human Handshake Checklist (Versi 1 Menit)
 
 1. Tujuannya apa?  
-2. “Selesai” itu seperti apa (deliverable + deadline)?  
+2. “Selesai” itu seperti apa?  
 3. Batasannya apa?  
-4. Siapa pegang apa (PIC)?  
+4. Siapa pegang apa?  
 5. Komunikasinya bagaimana (kanal, ritme, waktu respons)?  
-6. Kalau beda pendapat, cara mutusinnya gimana (decision rule)?  
+6. Kalau beda pendapat, cara mutusinnya gimana?  
 7. Rangkuman bersama: “Kita sepakat bahwa…”
 :::
 

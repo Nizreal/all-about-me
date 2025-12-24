@@ -11,83 +11,28 @@ format:
 **Inovasi utama saya** adalah membuat **Handshake Kit**, yaitu seperangkat alat yang bisa langsung dipakai untuk menjalankan konsep **Human Handshake Protocol (TCP/TLS untuk kolaborasi)** secara konsisten. Kalau konsep saya di UAS-1 adalah “mesin abstrak” yang mengurangi misalignment, maka inovasi ini adalah “implementasi lapangan” supaya handshake tidak cuma jadi ide, tetapi jadi kebiasaan tim.
 
 Tujuan inovasi ini sederhana: membuat proses menyamakan parameter kerja jadi **cepat, ringan, dan terukur**, sehingga konflik yang muncul tidak lagi kabur dan personal, tetapi bisa ditangani sebagai perbedaan parameter.
- 
+
 ::: {.text-center}
 ```{mermaid}
-  flowchart TD
-    A[Masalah: Misalignment] --> B[Konsep: Human Handshake Protocol]
-    B --> C[Handshake Kit]
-    C --> D1[Kickoff Script]
-    C --> D2[Handshake Canvas]
-    C --> D3[Opinion-to-Decision Template]
-    C --> D4[Re-handshake Ticket]
-    C --> D5[Mini-Rubrik Evaluasi]
-    D1 --> E[Output: parameter jelas]
-    D2 --> E
-    D3 --> F[Output: debat jadi keputusan]
-    D4 --> G[Output: scope change terkendali]
-    D5 --> H[Output: bisa diukur]
-    E --> I[Hasil: rework turun, konflik berulang berkurang]
-    F --> I
-    G --> I
-    H --> I
-  ```
+flowchart TD
+  A[Masalah: Misalignment] --> B[Konsep: Human Handshake Protocol]
+  B --> C[Handshake Kit]
+  C --> D1[Kickoff Script]
+  C --> D2[Handshake Canvas]
+  C --> D3[Opinion-to-Decision Template]
+  C --> D4[Re-handshake Ticket]
+  C --> D5[Mini-Rubrik Evaluasi]
+  D1 --> E[Output: parameter jelas]
+  D2 --> E
+  D3 --> F[Output: debat jadi keputusan]
+  D4 --> G[Output: scope change terkendali]
+  D5 --> H[Output: bisa diukur]
+  E --> I[Hasil: rework turun, konflik berulang berkurang]
+  F --> I
+  G --> I
+  H --> I
+```
 :::
-
-### Apa yang membuat ini benar-benar “inovasi” (bukan sekadar saran komunikasi)
-
-Handshake Kit berbeda dari nasihat umum “komunikasi yang baik” karena:
-
-- punya **fase handshake** yang jelas (bukan ngobrol bebas)
-- wajib ada **mutual ACK** (verifikasi pemahaman)
-- ada **re-handshake triggers** (kapan harus negosiasi ulang)
-- menghasilkan **artefak** (canvas, ticket, template), bukan cuma diskusi
-
-Dengan kata lain, kit ini mengubah “obrolan” menjadi “protokol + dokumen”.
-
-### Paket adopsi (biar gampang dipakai tim)
-
-Agar Adoption naik, saya menyiapkan cara pakai yang “plug and play”.
-
-**Hari 1 (Kickoff 10 menit):**
-1. Jalankan Kickoff Script 5 menit.
-2. Isi Handshake Canvas 1 halaman.
-3. Simpan Canvas di tempat yang semua orang pasti lihat (pinned message atau dokumen utama).
-
-**Setiap hari / setiap sesi kerja (2 menit):**
-- Update singkat: “done, next, blocker”.
-
-**Setiap ada perubahan scope (2 menit):**
-- Buat Re-handshake Ticket.
-
-**Akhir minggu (5 menit):**
-- Cek Mini-Rubrik Evaluasi dan putuskan apakah perlu re-handshake.
-
-### Metrik mini (biar terukur dan menaikkan Value + Validity)
-
-Saya memilih metrik yang gampang dihitung tanpa tool khusus:
-
-1. **Rework count**: berapa kali revisi karena “salah paham requirement” (bukan karena kualitas).
-2. **Time-to-decision**: berapa menit diskusi sampai keputusan final (khusus isu yang sebelumnya sering muter).
-3. **Repeated-conflict count**: berapa kali topik konflik yang sama muncul dalam satu minggu.
-4. **Alignment check**: semua anggota bisa menyebut definisi “selesai” yang sama (ya/tidak).
-
-Kalau angka-angka ini membaik, berarti kit benar-benar bekerja. Kalau memburuk, berarti handshake kurang lengkap atau scope sudah berubah tapi belum re-handshake.
-
-### Failure modes inovasi (biar realistis dan siap dipakai)
-
-1) **Orang malas mengisi karena terasa “ribet”.**  
-Solusi: pakai versi 60 detik dulu, lalu naikkan kedalaman hanya kalau proyeknya besar.
-
-2) **Canvas ada, tapi tidak pernah dibuka lagi.**  
-Solusi: jadikan Canvas sebagai “single source of truth”; setiap keputusan baru harus mengacu ke Canvas atau update Canvas.
-
-3) **Satu orang dominan memaksakan parameter.**  
-Solusi: sebelum final ACK, wajib ada “concern check” singkat: setiap orang menyebut 1 risiko atau keberatan.
-
-4) **Re-handshake lupa dilakukan saat scope berubah.**  
-Solusi: trigger eksplisit: setiap perubahan requirement harus menghasilkan Ticket, walau cuma 3 baris.
-
 ## Masalah yang Saya Targetkan
 
 Dalam kerja tim, miskom sering bukan karena orang tidak peduli, tetapi karena:

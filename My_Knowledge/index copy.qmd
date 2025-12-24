@@ -12,27 +12,6 @@ Di bagian ini saya menulis tentang pengetahuan (knowledge) yang saya anggap pali
 
 Dalam kerja kelompok, masalah utama sering bukan “kurang pintar”, tetapi “pengetahuan yang tidak sinkron”. Dua orang bisa sama-sama merasa paham, tetapi yang dipahami berbeda. Karena itu, saya memandang pengetahuan sebagai sesuatu yang perlu dibuat eksplisit, dibagi, lalu diverifikasi, supaya tim punya peta yang sama.
 
-### Definisi operasional (biar “knowledge” tidak abstrak)
-
-Dalam konteks kolaborasi, saya memakai definisi praktis:
-
-- **Informasi**: potongan fakta atau pesan (misalnya chat, brief, catatan).
-- **Pengetahuan bersama**: informasi yang sudah disepakati maknanya, ditulis ringkas, dan bisa dirujuk untuk keputusan.
-- **Sinkron**: semua anggota bisa mengulang definisi kunci (misalnya definisi “selesai”) dengan isi yang sama.
-
-Kalau pengetahuan tidak sinkron, tim biasanya tidak gagal karena kurang bekerja, tetapi gagal karena bekerja ke arah yang berbeda.
-
-### Indikator observabel (agar validitas naik)
-
-Saya menilai “pengetahuan bersama” sudah terbentuk jika:
-
-1. Semua anggota bisa menyebut **definisi selesai** yang sama (ya/tidak).
-2. Semua anggota tahu **siapa PIC** untuk bagian inti (ya/tidak).
-3. Semua anggota tahu **aturan keputusan** ketika beda pendapat (ya/tidak).
-4. Keputusan bisa dijelaskan dengan format: “kita memilih X karena Y, dengan asumsi Z”.
-
-Kalau indikator ini tidak terpenuhi, saya anggap tim masih berada di level “informasi”, belum menjadi “pengetahuan bersama”.
-
 ## Beban yang Ingin Saya Atasi
 
 Beban yang sering muncul dalam kolaborasi:
@@ -121,23 +100,6 @@ Saya minta setiap orang bisa merangkum kesepakatan dengan versi mereka sendiri. 
 
 Pengetahuan yang tidak ditulis biasanya menguap. Jadi saya suka menulis versi singkatnya, misalnya dalam bentuk canvas satu halaman atau catatan keputusan.
 
-## Contoh Knowledge Card yang Terisi (untuk Validity)
-
-Contoh ini saya buat dari skenario tugas kelompok agar terlihat nyata.
-
-::: {.callout-note}
-## Knowledge Card (Contoh Terisi)
-
-- **Klaim utama:** Definisi selesai untuk tugas ini adalah “laporan + slide + demo minimal berjalan”.
-- **Dasar (data / contoh / pengalaman):** Rubrik butuh presentasi; pengalaman tugas sebelumnya gagal karena demo tidak siap meski laporan lengkap.
-- **Asumsi yang dipakai:** Tim punya waktu 3 hari; demo minimal cukup (tidak perlu polish berlebihan).
-- **Risiko kalau klaim salah:** Jika ternyata rubrik menuntut demo lebih lengkap, nilai turun.
-- **Tes kecil berikutnya untuk memvalidasi:** Dalam 24 jam pertama, buat demo skeleton (fitur inti saja) dan minta 1 orang cek sesuai brief.
-- **Siapa PIC:** PIC Demo = A, PIC Laporan = B, PIC Slide = C, PIC Integrasi = D.
-:::
-
-Contoh terisi ini membantu meningkatkan validitas, karena menunjukkan pengetahuan bukan teori, tapi bisa dipakai untuk keputusan nyata.
-
 ## Inovasi kecil yang saya pakai untuk membuat pengetahuan jadi berguna
 
 Agar pengetahuan tidak berhenti di “paham”, saya pakai dua artefak sederhana.
@@ -169,20 +131,6 @@ Kartu ini saya pakai untuk menyusun pengetahuan agar jelas dan teruji.
 :::
 
 Dengan format ini, pengetahuan jadi bisa diperdebatkan dengan sehat, karena yang dibahas adalah klaim dan dasarnya, bukan orangnya.
-
-## Failure Modes (kapan pengetahuan “gagal”) dan Fix-nya
-
-1) **False agreement:** semua mengangguk, tapi definisi kunci berbeda di kepala masing-masing.  
-Fix: wajibkan ringkasan bergantian (mutual check) dan tulis 1 kalimat definisi “selesai”.
-
-2) **Info tercecer:** keputusan ada di chat, tapi hilang ditelan pesan baru.  
-Fix: pilih satu tempat “single source of truth” (canvas/notes) dan biasakan mencatat keputusan.
-
-3) **Dominance:** satu orang menentukan “pengetahuan” tanpa ruang koreksi.  
-Fix: pisahkan klaim dan orangnya; minta minimal 1 counterpoint atau risiko sebelum keputusan final.
-
-4) **Assumption blind spot:** tim tidak sadar asumsi yang mereka pakai.  
-Fix: setiap keputusan harus menuliskan minimal 1 asumsi yang eksplisit.
 
 ## Kenapa Pengetahuan Ini Berguna untuk Komunikasi Interpersonal
 
