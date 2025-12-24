@@ -8,10 +8,10 @@ format:
 
 ## Handshake Kit: Inovasi Praktis dari Human Handshake Protocol
 
-**Inovasi utama saya** adalah membuat **Handshake Kit**, yaitu seperangkat alat yang bisa langsung dipakai untuk menjalankan konsep **Human Handshake Protocol (TCP/TLS untuk kolaborasi)** secara konsisten. Kalau konsep saya di UAS-1 adalah “mesin abstrak” yang mengurangi misalignment, maka inovasi ini adalah “implementasi lapangan” supaya handshake tidak cuma jadi ide, tetapi jadi kebiasaan tim.
+**Inovasi utama saya** adalah membuat **Handshake Kit**, seperangkat alat yang bisa langsung dipakai untuk menjalankan konsep **Human Handshake Protocol** secara konsisten dalam program pendidikan berbantuan AI. Jika konsep di UAS-1 adalah “mesin abstrak” untuk mengurangi misalignment, maka inovasi ini adalah “implementasi lapangan” supaya handshake tidak berhenti sebagai ide, tetapi menjadi kebiasaan tim.
 
-Tujuan inovasi ini sederhana: membuat proses menyamakan parameter kerja jadi **cepat, ringan, dan terukur**, sehingga konflik yang muncul tidak lagi kabur dan personal, tetapi bisa ditangani sebagai perbedaan parameter.
- 
+Tujuan inovasi ini sederhana: membuat proses menyamakan parameter kerja jadi **cepat, ringan, dan terukur**, sehingga konflik yang muncul tidak kabur dan personal, tetapi bisa ditangani sebagai perbedaan parameter.
+
 ::: {.text-center}
 ```{mermaid}
   flowchart TD

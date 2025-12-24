@@ -8,9 +8,20 @@ format:
 
 ## Pengetahuan untuk Kolaborasi: Dari “Tahu” ke “Bisa Dipakai”
 
-Di bagian ini saya menulis tentang pengetahuan (knowledge) yang saya anggap paling penting dalam konteks komunikasi interpersonal dan kerja tim. Bagi saya, pengetahuan bukan sekadar banyak informasi. Pengetahuan adalah pemahaman yang cukup jelas untuk dipakai mengambil keputusan, menjelaskan alasan, dan memprediksi akibatnya.
+Di bagian ini saya menulis tentang pengetahuan yang paling penting ketika membangun sistem informasi pendidikan berbantuan AI. Bagi saya, pengetahuan bukan sekadar banyak informasi. Pengetahuan adalah pemahaman yang cukup jelas untuk dipakai mengambil keputusan, menjelaskan alasan, dan memprediksi akibatnya.
 
-Dalam kerja kelompok, masalah utama sering bukan “kurang pintar”, tetapi “pengetahuan yang tidak sinkron”. Dua orang bisa sama-sama merasa paham, tetapi yang dipahami berbeda. Karena itu, saya memandang pengetahuan sebagai sesuatu yang perlu dibuat eksplisit, dibagi, lalu diverifikasi, supaya tim punya peta yang sama.
+Dalam proyek pendidikan, masalah utama sering bukan “kurang ide”, tetapi “pengetahuan yang tidak sinkron”. Guru, tim teknis, relawan, dan pengguna bisa sama-sama merasa paham, tetapi yang dipahami berbeda. Karena itu, pengetahuan harus dibuat eksplisit, dibagi, lalu diverifikasi.
+
+## Beban yang Ingin Saya Atasi
+
+Beban yang sering muncul dalam implementasi sistem pendidikan AI:
+
+- Definisi “kemajuan belajar” berbeda-beda.
+- AI dipakai tanpa batas yang jelas, sehingga tim sulit bertanggung jawab.
+- Informasi tersebar di chat, tidak menjadi rujukan keputusan.
+- Saat konflik muncul, tidak ada “peta bersama” untuk balik ke akar masalah.
+
+Beban ini terlihat sebagai rework, miskom berulang, dan keputusan lambat.
 
 ### Definisi operasional (biar “knowledge” tidak abstrak)
 

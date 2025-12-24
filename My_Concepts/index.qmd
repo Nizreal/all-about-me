@@ -8,9 +8,13 @@ format:
 
 ## Human Handshake Protocol (TCP/TLS untuk Kolaborasi)
 
+**“My Masterpiece: Penerapan Sistem dan Teknologi Informasi di Era Artificial Intelligence”**. Masalah kemanusiaan yang saya pilih dari Top-10 adalah **akses pendidikan dan melek huruf**.
+
+Dalam konteks ini, saya melihat tantangan pendidikan bukan hanya soal “kurang konten”, tetapi sering soal **kolaborasi yang gagal** antara pihak-pihak yang seharusnya saling menguatkan: guru, siswa, orang tua, sekolah, komunitas, pemerintah, dan penyedia teknologi AI. Banyak program edukasi berhenti bukan karena idenya jelek, tetapi karena parameter kerja tidak pernah disepakati dengan jelas.
+
 Dalam materi kuliah ini, **konsep** bukan sekadar topik atau slogan. Konsep adalah **logika dari sebuah mesin abstrak**: ia mengumpulkan dan mengarahkan daya **[K]** untuk mengangkat beban atau masalah **[B]**. Konsep yang baik juga menjadi “induk” yang bisa melahirkan banyak ide praktis, dan ide-ide turunan itu mewarisi kualitas dari konsep induknya.
 
-Konsep saya adalah **Human Handshake Protocol**, yaitu “handshake” terstruktur sebelum kolaborasi dimulai untuk menyamakan parameter, mirip seperti TCP atau TLS menyepakati parameter sebelum pertukaran data yang sesungguhnya.
+Konsep saya adalah **Human Handshake Protocol**, yaitu “handshake” terstruktur sebelum kolaborasi dimulai untuk menyamakan parameter, mirip seperti TCP atau TLS menyepakati parameter sebelum pertukaran data yang sesungguhnya. Dalam masterpiece ini, “data” yang dipertukarkan bukan paket jaringan, tetapi kerja nyata: kurikulum, distribusi materi, pendampingan belajar, evaluasi, dan integrasi AI.
 
 ::: {.text-center}
 ```{mermaid}
@@ -26,9 +30,6 @@ flowchart TD
   H -- Tidak --> G
 ```
 :::
-## Upgrade untuk Skor A (Clarity, Logic, Validity, Usefulness)
-
-Bagian ini memperkuat rubrik, terutama **Validity** (contoh nyata, failure mode, batasan jujur) tanpa mengurangi **Clarity** dan **Usefulness**.
 
 ### Definisi Operasional (biar “parameter” tidak abstrak)
 
